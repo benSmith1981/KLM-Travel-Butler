@@ -1,0 +1,26 @@
+/* 
+  Localizable.string (English).strings
+  KLM-PassengerTripInformation
+
+  Created by Trym Lintzen on 13-12-17.
+  Copyright © 2017 Ben Smith. All rights reserved.
+*/
+
+"login" = "Login";
+"pleaseLogin" = "Please login";
+"password" = "Password";
+"yourPassword" = "Your password";
+"name" = "Name";
+"myUpcomingTrips" = "My upcoming trips"; // need to implement
+"AmsterdamTo" = "Amsterdam to";
+"visa" = "Visa";
+"vaccinations" = "Vaccinations";
+"routeToAiport" = "Route to airport";
+"kilometers" = "Kilometers";
+"time" = "Time";
+"securityWaitingTime" = "Security Waiting Time";
+"noteSecurity" = "Be aware that waiting times continuously change. Please check waiting times regularly.";
+"flightNumber" = "Flight number";
+"yourFlightnumber" = "E.g. KL1014";
+"getFlightDetails" = "Get flight details";
+"dateOfTravel" = "Date of travel";

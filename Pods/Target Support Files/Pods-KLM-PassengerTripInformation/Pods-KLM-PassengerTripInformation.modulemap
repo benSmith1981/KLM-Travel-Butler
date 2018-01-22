@@ -1,0 +1,6 @@
+framework module Pods_KLM_PassengerTripInformation {
+  umbrella header "Pods-KLM-PassengerTripInformation-umbrella.h"
+
+  export *
+  module * { export * }
+}

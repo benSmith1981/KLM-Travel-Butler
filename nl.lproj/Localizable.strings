@@ -1,0 +1,26 @@
+/* 
+  Localizable.string (English).strings
+  KLM-PassengerTripInformation
+
+  Created by Trym Lintzen on 13-12-17.
+  Copyright © 2017 Ben Smith. All rights reserved.
+*/
+
+"login" = "Inloggen";
+"pleaseLogin" = "Alstublief inloggen";
+"password" = "Wachtwoord";
+"yourPassword" = "Jouw wachtwoord";
+"name" = "Naam";
+"myUpcomingTrips" = "Mijn aankomende reizen"; 
+"AmsterdamTo" = "Amsterdam naar";
+"visa" = "Visum";
+"vaccinations" = "Vaccinaties";
+"routeToAiport" = "Route naar het vliegveld";
+"kilometers" = "Kilometers";
+"time" = "Duur";
+"securityWaitingTime" = "Wachtijd bij security";
+"noteSecurity" = "Houdt er rekening mee dat de wachttijd kan veranderen. Houdt de app regelmatig in de gaten voor de meest actuale wachttijd";
+"flightNumber" = "Vlucht nummer";
+"yourFlightnumber" = "KL0887";
+"getFlightDetails" = "Haal vluchtgegevens op";
+"dateOfTravel" = "Reisdag";

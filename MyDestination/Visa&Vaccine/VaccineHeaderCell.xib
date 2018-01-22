@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="VaccineHeaderCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="VaccineHeaderCell" rowHeight="141" id="KGk-i7-Jjw" customClass="VaccineHeaderCell" customModule="KLM_PassengerTripInformation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="471" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rBR-qO-kxf">
+                        <rect key="frame" x="20" y="24" width="60" height="60"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doa-ol-gQD">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Ggj-Mi-iVZ"/>
+                                    <constraint firstAttribute="height" constant="60" id="WVx-Op-eYg"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Syringe-blue-icon">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressVaccineButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="XdY-Ud-pmO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unchecked-checkbox" translatesAutoresizingMaskIntoConstraints="NO" id="Td2-cU-RL0">
+                        <rect key="frame" x="88" y="62" width="22" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rBR-qO-kxf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="IGL-jy-3bx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="rBR-qO-kxf" secondAttribute="bottom" constant="15" id="KUE-xy-d0u"/>
+                    <constraint firstItem="rBR-qO-kxf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="Yym-J1-tir"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkImage" destination="Td2-cU-RL0" id="24r-qF-6C0"/>
+                <outlet property="vaccineButton" destination="doa-ol-gQD" id="uey-k1-1q1"/>
+            </connections>
+            <point key="canvasLocation" x="40.5" y="-11"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Syringe-blue-icon" width="64" height="64"/>
+        <image name="unchecked-checkbox" width="100" height="100"/>
+    </resources>
+</document>

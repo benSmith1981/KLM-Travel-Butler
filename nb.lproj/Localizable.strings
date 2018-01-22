@@ -1,0 +1,26 @@
+/* 
+  Localizable.string (English).strings
+  KLM-PassengerTripInformation
+
+  Created by Trym Lintzen on 13-12-17.
+  Copyright © 2017 Ben Smith. All rights reserved.
+*/
+
+"login" = "Logg inn";
+"pleaseLogin" = "Vær så snill logg inn";
+"password" = "passord";
+"yourPassword" = "Din passord";
+"name" = "Navn";
+"myUpcomingTrips" = "Mine kommende turer"; // need to implement
+"AmsterdamTo" = "Amsterdam till";
+"visa" = "Visa";
+"vaccinations" = "Vaksinasjoner";
+"routeToAiport" = "Rute til flyplassen";
+"kilometers" = "Kjørelengde";
+"time" = "Tid";
+"securityWaitingTime" = "Ventetid security";
+"noteSecurity" = "Vær oppmerksom på at ventetider kontinuerlig endres. Vennligst sjekk ventetider regelmessig.";
+"flightNumber" = "Flynummer";
+"yourFlightnumber" = "For eksempel KL1014";
+"getFlightDetails" = "Få flydetaljer";
+"dateOfTravel" = "Dato for reise";

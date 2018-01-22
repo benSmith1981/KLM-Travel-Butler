@@ -1,0 +1,6 @@
+framework module Pods_KLM_PassengerTripInformationUITests {
+  umbrella header "Pods-KLM-PassengerTripInformationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

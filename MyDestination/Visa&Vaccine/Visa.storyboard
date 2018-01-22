@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VisaView-->
+        <scene sceneID="hwd-px-gXY">
+            <objects>
+                <viewController storyboardIdentifier="VisaView" title="VisaView" id="XVD-dc-naR" customClass="VisaViewController" customModule="KLM_PassengerTripInformation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PNC-JV-fln">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="visa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0h-SS-zND">
+                                <rect key="frame" x="15" y="46" width="315" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="LBV-Ai-kPA"/>
+                                    <constraint firstAttribute="height" constant="28" id="uLP-dJ-Ybj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeF-yw-C1C">
+                                <rect key="frame" x="16" y="91" width="343" height="576"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e0h-SS-zND" firstAttribute="leading" secondItem="xRZ-TL-b1F" secondAttribute="leading" constant="15" id="1Uk-Cr-r3i"/>
+                            <constraint firstItem="YeF-yw-C1C" firstAttribute="trailing" secondItem="PNC-JV-fln" secondAttribute="trailingMargin" id="CrX-TS-Vu0"/>
+                            <constraint firstItem="YeF-yw-C1C" firstAttribute="leading" secondItem="PNC-JV-fln" secondAttribute="leadingMargin" id="Nv1-ra-utS"/>
+                            <constraint firstItem="e0h-SS-zND" firstAttribute="top" secondItem="xRZ-TL-b1F" secondAttribute="top" constant="26" id="XLj-Jx-iUY"/>
+                            <constraint firstItem="xRZ-TL-b1F" firstAttribute="bottom" secondItem="YeF-yw-C1C" secondAttribute="bottom" id="e9J-qW-RXZ"/>
+                            <constraint firstItem="YeF-yw-C1C" firstAttribute="top" secondItem="e0h-SS-zND" secondAttribute="bottom" constant="17" id="mHN-F9-I7w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xRZ-TL-b1F"/>
+                    </view>
+                    <connections>
+                        <outlet property="visaDetailText" destination="YeF-yw-C1C" id="YTE-p8-a2m"/>
+                        <outlet property="visaDetailTitle" destination="e0h-SS-zND" id="q4j-JV-X0O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RXe-UO-1bp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="58.920539730134934"/>
+        </scene>
+    </scenes>
+</document>

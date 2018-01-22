@@ -1,0 +1,1372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FCC031086F772C617849EA /* Pods_KLM_PassengerTripInformationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148CB1FEC656335922C05C82 /* Pods_KLM_PassengerTripInformationTests.framework */; };
+		3A251D43D4A8849CF615C991 /* Pods_KLM_PassengerTripInformationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A276CC398DA703CDBDC1D2A1 /* Pods_KLM_PassengerTripInformationUITests.framework */; };
+		81341A141FCC2FD60035C4D3 /* CLLocationDistanceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81341A131FCC2FD60035C4D3 /* CLLocationDistanceExtension.swift */; };
+		81341A1D1FCD6FCE0035C4D3 /* FlightDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81341A1C1FCD68E90035C4D3 /* FlightDetailsTableViewCell.swift */; };
+		81341A1E1FCD74080035C4D3 /* FlightDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81341A1B1FCD68E90035C4D3 /* FlightDetailsTableViewCell.xib */; };
+		8157AB6A1FC6C2650022C3C6 /* MyDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB691FC6C2650022C3C6 /* MyDestinationViewController.swift */; };
+		8157AB6F1FC6C70B0022C3C6 /* destinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB6D1FC6C70B0022C3C6 /* destinationTableViewCell.swift */; };
+		8157AB721FC6CB940022C3C6 /* MyTrips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157AB711FC6CB940022C3C6 /* MyTrips.storyboard */; };
+		8157AB751FC6CC220022C3C6 /* MyDestination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157AB741FC6CC220022C3C6 /* MyDestination.storyboard */; };
+		8157AB7C1FC6D6890022C3C6 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB7B1FC6D6890022C3C6 /* SplashScreenViewController.swift */; };
+		8157AB821FC70EB00022C3C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB811FC70EB00022C3C6 /* Constants.swift */; };
+		8157AB871FC71C060022C3C6 /* RouteToAirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB851FC71C060022C3C6 /* RouteToAirportTableViewCell.swift */; };
+		8157AB8A1FC728390022C3C6 /* directionPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157AB891FC728390022C3C6 /* directionPolyline.swift */; };
+		8168104F1FDFF51300BB2D3B /* routeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8168104D1FDFF51300BB2D3B /* routeTableViewCell.xib */; };
+		816810561FE1392800BB2D3B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 816810581FE1392800BB2D3B /* Localizable.strings */; };
+		816810641FE2C4D200BB2D3B /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816810621FE2C4D200BB2D3B /* PickerTableViewCell.swift */; };
+		816810651FE2C4D200BB2D3B /* PickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816810631FE2C4D200BB2D3B /* PickerTableViewCell.xib */; };
+		816810671FE2C5D800BB2D3B /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816810661FE2C5D800BB2D3B /* BundleExtension.swift */; };
+		81A912C81FD6C5EF00B59960 /* PackingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A912C61FD6C5EF00B59960 /* PackingTableViewCell.swift */; };
+		81A912C91FD6C5EF00B59960 /* PackingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A912C71FD6C5EF00B59960 /* PackingTableViewCell.xib */; };
+		901F08FA1FD6C6220013F608 /* VaccineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F08F91FD6C6220013F608 /* VaccineTableViewController.swift */; };
+		902B9F821FC2FDC100E5E4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F811FC2FDC100E5E4C1 /* AppDelegate.swift */; };
+		902B9F891FC2FDC100E5E4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F881FC2FDC100E5E4C1 /* Assets.xcassets */; };
+		902B9F8C1FC2FDC100E5E4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F8A1FC2FDC100E5E4C1 /* LaunchScreen.storyboard */; };
+		902B9F971FC2FDC100E5E4C1 /* KLM_PassengerTripInformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F961FC2FDC100E5E4C1 /* KLM_PassengerTripInformationTests.swift */; };
+		902B9FA21FC2FDC100E5E4C1 /* KLM_PassengerTripInformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9FA11FC2FDC100E5E4C1 /* KLM_PassengerTripInformationUITests.swift */; };
+		902B9FB21FC3060700E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9FB11FC3060600E5E4C1 /* Main.storyboard */; };
+		905231531FC7168000E19517 /* SchipholDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905231501FC7167F00E19517 /* SchipholDataObject.swift */; };
+		905231541FC7168000E19517 /* KLMHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905231521FC7167F00E19517 /* KLMHTMLParser.swift */; };
+		905231571FC7169500E19517 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905231561FC7169500E19517 /* StringExtension.swift */; };
+		90E5BAE81FCC256A00C1EB24 /* LineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAC71FCC256A00C1EB24 /* LineSegment.swift */; };
+		90E5BAE91FCC256A00C1EB24 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAC81FCC256A00C1EB24 /* BaseNode.swift */; };
+		90E5BAEA1FCC256A00C1EB24 /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAC91FCC256A00C1EB24 /* POIAnnotation.swift */; };
+		90E5BAEB1FCC256A00C1EB24 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BACA1FCC256A00C1EB24 /* LocationData.swift */; };
+		90E5BAEC1FCC256A00C1EB24 /* LocationTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BACB1FCC256A00C1EB24 /* LocationTranslation.swift */; };
+		90E5BAED1FCC256A00C1EB24 /* CLLocationCoordinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BACD1FCC256A00C1EB24 /* CLLocationCoordinate2D+Extension.swift */; };
+		90E5BAEE1FCC256A00C1EB24 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BACE1FCC256A00C1EB24 /* CLLocation+Extension.swift */; };
+		90E5BAEF1FCC256A00C1EB24 /* StoryboardIdentifiableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BACF1FCC256A00C1EB24 /* StoryboardIdentifiableError.swift */; };
+		90E5BAF01FCC256A00C1EB24 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD01FCC256A00C1EB24 /* SCNVector3+Extension.swift */; };
+		90E5BAF11FCC256A00C1EB24 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD11FCC256A00C1EB24 /* Double+Extension.swift */; };
+		90E5BAF21FCC256A00C1EB24 /* ARConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD21FCC256A00C1EB24 /* ARConstants.swift */; };
+		90E5BAF31FCC256A00C1EB24 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD31FCC256A00C1EB24 /* UIStoryboard+Extension.swift */; };
+		90E5BAF41FCC256A00C1EB24 /* MKRouteStep+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD41FCC256A00C1EB24 /* MKRouteStep+Extension.swift */; };
+		90E5BAF51FCC256A00C1EB24 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E5BAD51FCC256A00C1EB24 /* Navigation.storyboard */; };
+		90E5BAF61FCC256A00C1EB24 /* ARRouteToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD61FCC256A00C1EB24 /* ARRouteToMapView.swift */; };
+		90E5BAF71FCC256A00C1EB24 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD71FCC256A00C1EB24 /* ARViewController.swift */; };
+		90E5BAF81FCC256A00C1EB24 /* NavigationViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAD91FCC256A00C1EB24 /* NavigationViewControllerDelegate.swift */; };
+		90E5BAF91FCC256A00C1EB24 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADA1FCC256A00C1EB24 /* StoryboardIdentifiable.swift */; };
+		90E5BAFA1FCC256A00C1EB24 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADB1FCC256A00C1EB24 /* Controller.swift */; };
+		90E5BAFB1FCC256A00C1EB24 /* MessagePresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADC1FCC256A00C1EB24 /* MessagePresenting.swift */; };
+		90E5BAFC1FCC256A00C1EB24 /* LocationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADD1FCC256A00C1EB24 /* LocationServiceDelegate.swift */; };
+		90E5BAFD1FCC256A00C1EB24 /* Mapable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADE1FCC256A00C1EB24 /* Mapable.swift */; };
+		90E5BAFE1FCC256A00C1EB24 /* ControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BADF1FCC256A00C1EB24 /* ControllerType.swift */; };
+		90E5BAFF1FCC256A00C1EB24 /* routeSchiphol.json in Resources */ = {isa = PBXBuildFile; fileRef = 90E5BAE11FCC256A00C1EB24 /* routeSchiphol.json */; };
+		90E5BB001FCC256A00C1EB24 /* WayFindingSchipholService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAE21FCC256A00C1EB24 /* WayFindingSchipholService.swift */; };
+		90E5BB011FCC256A00C1EB24 /* MatrixHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAE41FCC256A00C1EB24 /* MatrixHelper.swift */; };
+		90E5BB021FCC256A00C1EB24 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAE51FCC256A00C1EB24 /* Color.swift */; };
+		90E5BB031FCC256A00C1EB24 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAE61FCC256A00C1EB24 /* LocationService.swift */; };
+		90E5BB041FCC256A00C1EB24 /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BAE71FCC256A00C1EB24 /* NavigationService.swift */; };
+		90E5BB061FCC259000C1EB24 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BB051FCC259000C1EB24 /* UIViewControllerExtensions.swift */; };
+		90E5BB0F1FCC86A400C1EB24 /* ArRoutingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5BB0D1FCC86A400C1EB24 /* ArRoutingTableCell.swift */; };
+		90E5BB101FCC86A400C1EB24 /* ArRoutingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E5BB0E1FCC86A400C1EB24 /* ArRoutingTableCell.xib */; };
+		90E5BB141FCCA4CC00C1EB24 /* SchipholNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E5BB131FCCA4CC00C1EB24 /* SchipholNavigation.storyboard */; };
+		90E9F5D21FE01B3A00EAAB56 /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9F5D11FE01B3900EAAB56 /* MyTripsViewController.swift */; };
+		952327661FE14FBB0035134F /* VaccineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952327641FE14FBB0035134F /* VaccineTableViewCell.swift */; };
+		952327671FE14FBB0035134F /* VaccineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952327651FE14FBB0035134F /* VaccineTableViewCell.xib */; };
+		9540492E1FDEF36C00AD531F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540492D1FDEF36C00AD531F /* ViewExtensions.swift */; };
+		9549BF6B1FC9925900277D70 /* Visa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9549BF6A1FC9925900277D70 /* Visa.storyboard */; };
+		9549BF6F1FC9951800277D70 /* VisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549BF6E1FC9951800277D70 /* VisaViewController.swift */; };
+		95682F541FD1536100EAE035 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		95682F561FD179D500EAE035 /* DummyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95682F551FD179D500EAE035 /* DummyDataService.swift */; };
+		956DBC031FD558B100FEA428 /* vaccineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DBC021FD558B100FEA428 /* vaccineParser.swift */; };
+		956DBC0B1FD69BE700FEA428 /* VaccineTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956DBC0A1FD69BE700FEA428 /* VaccineTableViewController.storyboard */; };
+		95C6BD941FCD6CCE00DDDF74 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6BD931FCD6CCD00DDDF74 /* ColorExtensions.swift */; };
+		95C6BD991FCEBB1900DDDF74 /* NoaLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95C6BD951FCEBB1800DDDF74 /* NoaLTPro-Regular.otf */; };
+		95C6BD9A1FCEBB1900DDDF74 /* NoaLTStd-LightTab.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95C6BD961FCEBB1800DDDF74 /* NoaLTStd-LightTab.otf */; };
+		95C6BD9B1FCEBB1900DDDF74 /* NoaLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95C6BD971FCEBB1800DDDF74 /* NoaLTPro-Light.otf */; };
+		95C6BD9C1FCEBB1900DDDF74 /* NoaLTStd-RegularTab.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95C6BD981FCEBB1900DDDF74 /* NoaLTStd-RegularTab.otf */; };
+		95C6BD9F1FD0057000DDDF74 /* FlightListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6BD9E1FD0056F00DDDF74 /* FlightListObject.swift */; };
+		95E71DE51FD0292000D0F9E4 /* KlmParserTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E71DE41FD0292000D0F9E4 /* KlmParserTester.swift */; };
+		95E71DE71FD029D000D0F9E4 /* VaccineDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E71DE61FD029D000D0F9E4 /* VaccineDataService.swift */; };
+		95E71DEA1FD02C4300D0F9E4 /* flightListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 95E71DE91FD02C4300D0F9E4 /* flightListData.json */; };
+		9A4C1B627714D49F8044E24B /* Pods_KLM_PassengerTripInformation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4549A3F2EC52CBCA814959 /* Pods_KLM_PassengerTripInformation.framework */; };
+		D01E59271FD7E315005846AC /* VisumDetailScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E59261FD7E315005846AC /* VisumDetailScraper.swift */; };
+		D01E59291FD7EB4C005846AC /* EnglishDutchCountryName.json in Resources */ = {isa = PBXBuildFile; fileRef = D01E59281FD7EB4C005846AC /* EnglishDutchCountryName.json */; };
+		D0280AD81FE2C858002511DC /* TripPreparationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0280AD61FE2C858002511DC /* TripPreparationsTableViewCell.swift */; };
+		D0280AD91FE2C858002511DC /* TripPreparationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0280AD71FE2C858002511DC /* TripPreparationsTableViewCell.xib */; };
+		D02C6EEC1FE2973A004675A4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C6EEB1FE2973A004675A4 /* Section.swift */; };
+		D062AD561FCF02E50096D28F /* VisumScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062AD551FCF02E50096D28F /* VisumScraper.swift */; };
+		D062AD5A1FCF032B0096D28F /* airportCode.json in Resources */ = {isa = PBXBuildFile; fileRef = D062AD581FCF032A0096D28F /* airportCode.json */; };
+		D062AD611FD027B60096D28F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062AD5D1FD027B60096D28F /* LoginVC.swift */; };
+		D062AD621FD027B60096D28F /* KLMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062AD5E1FD027B60096D28F /* KLMColor.swift */; };
+		D062AD631FD027B60096D28F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D062AD5F1FD027B60096D28F /* Login.storyboard */; };
+		D06DBEB71FE1869000D1A5CE /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06DBEB61FE1869000D1A5CE /* CollapsibleTableViewHeader.swift */; };
+		D06DBEBB1FE187D600D1A5CE /* destinationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06DBEBA1FE187D600D1A5CE /* destinationTableViewCell.xib */; };
+		D0A7AE731FD96E10009D0992 /* newWaitingTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7AE711FD96E10009D0992 /* newWaitingTimeTableViewCell.swift */; };
+		D0A7AE741FD96E10009D0992 /* newWaitingTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A7AE721FD96E10009D0992 /* newWaitingTimeTableViewCell.xib */; };
+		D0DCAA771FDEAD74004F79EB /* finalVisaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCAA751FDEAD74004F79EB /* finalVisaTableViewCell.swift */; };
+		D0DCAA781FDEAD74004F79EB /* finalVisaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DCAA761FDEAD74004F79EB /* finalVisaTableViewCell.xib */; };
+		D0DCAA7B1FDEC90A004F79EB /* finalVaccineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCAA791FDEC90A004F79EB /* finalVaccineTableViewCell.swift */; };
+		D0DCAA7C1FDEC90A004F79EB /* finalVaccineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DCAA7A1FDEC90A004F79EB /* finalVaccineTableViewCell.xib */; };
+		D0DCAA811FDFD9B2004F79EB /* waitTimeWarningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCAA7F1FDFD9B2004F79EB /* waitTimeWarningCell.swift */; };
+		D0DCAA821FDFD9B2004F79EB /* waitTimeWarningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DCAA801FDFD9B2004F79EB /* waitTimeWarningCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902B9F931FC2FDC100E5E4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902B9F761FC2FDC000E5E4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902B9F7D1FC2FDC100E5E4C1;
+			remoteInfo = "KLM-PassengerTripInformation";
+		};
+		902B9F9E1FC2FDC100E5E4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902B9F761FC2FDC000E5E4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902B9F7D1FC2FDC100E5E4C1;
+			remoteInfo = "KLM-PassengerTripInformation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145866B198AFF2C2805E7E63 /* Pods-KLM-PassengerTripInformationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformationUITests/Pods-KLM-PassengerTripInformationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		148CB1FEC656335922C05C82 /* Pods_KLM_PassengerTripInformationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLM_PassengerTripInformationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E54BCC245372DBE2AD81C25 /* Pods-KLM-PassengerTripInformationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformationTests/Pods-KLM-PassengerTripInformationTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B4549A3F2EC52CBCA814959 /* Pods_KLM_PassengerTripInformation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLM_PassengerTripInformation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E587478B510B17D8082862C /* Pods-KLM-PassengerTripInformationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformationTests/Pods-KLM-PassengerTripInformationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81341A131FCC2FD60035C4D3 /* CLLocationDistanceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationDistanceExtension.swift; sourceTree = "<group>"; };
+		81341A1B1FCD68E90035C4D3 /* FlightDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		81341A1C1FCD68E90035C4D3 /* FlightDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		8157AB691FC6C2650022C3C6 /* MyDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDestinationViewController.swift; sourceTree = "<group>"; };
+		8157AB6D1FC6C70B0022C3C6 /* destinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinationTableViewCell.swift; sourceTree = "<group>"; };
+		8157AB711FC6CB940022C3C6 /* MyTrips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyTrips.storyboard; sourceTree = "<group>"; };
+		8157AB741FC6CC220022C3C6 /* MyDestination.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyDestination.storyboard; sourceTree = "<group>"; };
+		8157AB7B1FC6D6890022C3C6 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		8157AB811FC70EB00022C3C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8157AB851FC71C060022C3C6 /* RouteToAirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteToAirportTableViewCell.swift; sourceTree = "<group>"; };
+		8157AB891FC728390022C3C6 /* directionPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directionPolyline.swift; sourceTree = "<group>"; };
+		8168104D1FDFF51300BB2D3B /* routeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = routeTableViewCell.xib; sourceTree = "<group>"; };
+		816810551FE1386900BB2D3B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		816810571FE1392800BB2D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		816810591FE1392B00BB2D3B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8168105A1FE14A0500BB2D3B /* SF UI Text Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF UI Text Regular.otf"; sourceTree = "<group>"; };
+		8168105D1FE14F5D00BB2D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8168105E1FE1506700BB2D3B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8168105F1FE1506700BB2D3B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		816810621FE2C4D200BB2D3B /* PickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		816810631FE2C4D200BB2D3B /* PickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerTableViewCell.xib; sourceTree = "<group>"; };
+		816810661FE2C5D800BB2D3B /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		81A912C41FCF095400B59960 /* KLM-PassengerTripInformation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KLM-PassengerTripInformation.entitlements"; sourceTree = "<group>"; };
+		81A912C61FD6C5EF00B59960 /* PackingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingTableViewCell.swift; sourceTree = "<group>"; };
+		81A912C71FD6C5EF00B59960 /* PackingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackingTableViewCell.xib; sourceTree = "<group>"; };
+		84E53186D0D2E6039C7FBD28 /* Pods-KLM-PassengerTripInformation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformation.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformation/Pods-KLM-PassengerTripInformation.release.xcconfig"; sourceTree = "<group>"; };
+		901F08F91FD6C6220013F608 /* VaccineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineTableViewController.swift; sourceTree = "<group>"; };
+		902B9F7E1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KLM-PassengerTripInformation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B9F811FC2FDC100E5E4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902B9F881FC2FDC100E5E4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		902B9F8B1FC2FDC100E5E4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902B9F8D1FC2FDC100E5E4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902B9F921FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KLM-PassengerTripInformationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B9F961FC2FDC100E5E4C1 /* KLM_PassengerTripInformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_PassengerTripInformationTests.swift; sourceTree = "<group>"; };
+		902B9F981FC2FDC100E5E4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902B9F9D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KLM-PassengerTripInformationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B9FA11FC2FDC100E5E4C1 /* KLM_PassengerTripInformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_PassengerTripInformationUITests.swift; sourceTree = "<group>"; };
+		902B9FA31FC2FDC100E5E4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902B9FB11FC3060600E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		905231501FC7167F00E19517 /* SchipholDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchipholDataObject.swift; sourceTree = "<group>"; };
+		905231521FC7167F00E19517 /* KLMHTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMHTMLParser.swift; sourceTree = "<group>"; };
+		905231561FC7169500E19517 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		90E5BAC71FCC256A00C1EB24 /* LineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegment.swift; sourceTree = "<group>"; };
+		90E5BAC81FCC256A00C1EB24 /* BaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		90E5BAC91FCC256A00C1EB24 /* POIAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIAnnotation.swift; sourceTree = "<group>"; };
+		90E5BACA1FCC256A00C1EB24 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		90E5BACB1FCC256A00C1EB24 /* LocationTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTranslation.swift; sourceTree = "<group>"; };
+		90E5BACD1FCC256A00C1EB24 /* CLLocationCoordinate2D+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extension.swift"; sourceTree = "<group>"; };
+		90E5BACE1FCC256A00C1EB24 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		90E5BACF1FCC256A00C1EB24 /* StoryboardIdentifiableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiableError.swift; sourceTree = "<group>"; };
+		90E5BAD01FCC256A00C1EB24 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		90E5BAD11FCC256A00C1EB24 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		90E5BAD21FCC256A00C1EB24 /* ARConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConstants.swift; sourceTree = "<group>"; };
+		90E5BAD31FCC256A00C1EB24 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		90E5BAD41FCC256A00C1EB24 /* MKRouteStep+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKRouteStep+Extension.swift"; sourceTree = "<group>"; };
+		90E5BAD51FCC256A00C1EB24 /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		90E5BAD61FCC256A00C1EB24 /* ARRouteToMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARRouteToMapView.swift; sourceTree = "<group>"; };
+		90E5BAD71FCC256A00C1EB24 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		90E5BAD91FCC256A00C1EB24 /* NavigationViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewControllerDelegate.swift; sourceTree = "<group>"; };
+		90E5BADA1FCC256A00C1EB24 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		90E5BADB1FCC256A00C1EB24 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		90E5BADC1FCC256A00C1EB24 /* MessagePresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePresenting.swift; sourceTree = "<group>"; };
+		90E5BADD1FCC256A00C1EB24 /* LocationServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceDelegate.swift; sourceTree = "<group>"; };
+		90E5BADE1FCC256A00C1EB24 /* Mapable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapable.swift; sourceTree = "<group>"; };
+		90E5BADF1FCC256A00C1EB24 /* ControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerType.swift; sourceTree = "<group>"; };
+		90E5BAE11FCC256A00C1EB24 /* routeSchiphol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routeSchiphol.json; sourceTree = "<group>"; };
+		90E5BAE21FCC256A00C1EB24 /* WayFindingSchipholService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WayFindingSchipholService.swift; sourceTree = "<group>"; };
+		90E5BAE41FCC256A00C1EB24 /* MatrixHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixHelper.swift; sourceTree = "<group>"; };
+		90E5BAE51FCC256A00C1EB24 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		90E5BAE61FCC256A00C1EB24 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		90E5BAE71FCC256A00C1EB24 /* NavigationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		90E5BB051FCC259000C1EB24 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		90E5BB0D1FCC86A400C1EB24 /* ArRoutingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArRoutingTableCell.swift; sourceTree = "<group>"; };
+		90E5BB0E1FCC86A400C1EB24 /* ArRoutingTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArRoutingTableCell.xib; sourceTree = "<group>"; };
+		90E5BB131FCCA4CC00C1EB24 /* SchipholNavigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SchipholNavigation.storyboard; sourceTree = "<group>"; };
+		90E9F5D11FE01B3900EAAB56 /* MyTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		952327641FE14FBB0035134F /* VaccineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineTableViewCell.swift; sourceTree = "<group>"; };
+		952327651FE14FBB0035134F /* VaccineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VaccineTableViewCell.xib; sourceTree = "<group>"; };
+		9540492D1FDEF36C00AD531F /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		9549BF6A1FC9925900277D70 /* Visa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Visa.storyboard; sourceTree = "<group>"; };
+		9549BF6E1FC9951800277D70 /* VisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaViewController.swift; sourceTree = "<group>"; };
+		95682F551FD179D500EAE035 /* DummyDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyDataService.swift; path = "KLM-PassengerTripInformation/DataLayer/Objects/DummyDataService.swift"; sourceTree = SOURCE_ROOT; };
+		956DBC021FD558B100FEA428 /* vaccineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaccineParser.swift; sourceTree = "<group>"; };
+		956DBC0A1FD69BE700FEA428 /* VaccineTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VaccineTableViewController.storyboard; sourceTree = "<group>"; };
+		95C6BD931FCD6CCD00DDDF74 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		95C6BD951FCEBB1800DDDF74 /* NoaLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoaLTPro-Regular.otf"; sourceTree = "<group>"; };
+		95C6BD961FCEBB1800DDDF74 /* NoaLTStd-LightTab.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoaLTStd-LightTab.otf"; sourceTree = "<group>"; };
+		95C6BD971FCEBB1800DDDF74 /* NoaLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoaLTPro-Light.otf"; sourceTree = "<group>"; };
+		95C6BD981FCEBB1900DDDF74 /* NoaLTStd-RegularTab.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoaLTStd-RegularTab.otf"; sourceTree = "<group>"; };
+		95C6BD9E1FD0056F00DDDF74 /* FlightListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListObject.swift; sourceTree = "<group>"; };
+		95E71DE41FD0292000D0F9E4 /* KlmParserTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlmParserTester.swift; sourceTree = "<group>"; };
+		95E71DE61FD029D000D0F9E4 /* VaccineDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineDataService.swift; sourceTree = "<group>"; };
+		95E71DE91FD02C4300D0F9E4 /* flightListData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flightListData.json; sourceTree = "<group>"; };
+		A276CC398DA703CDBDC1D2A1 /* Pods_KLM_PassengerTripInformationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLM_PassengerTripInformationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AA55DAE90BF1515A73051A /* Pods-KLM-PassengerTripInformation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformation/Pods-KLM-PassengerTripInformation.debug.xcconfig"; sourceTree = "<group>"; };
+		C11B1F035A1E924D07A12390 /* Pods-KLM-PassengerTripInformationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLM-PassengerTripInformationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLM-PassengerTripInformationUITests/Pods-KLM-PassengerTripInformationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D01E59261FD7E315005846AC /* VisumDetailScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisumDetailScraper.swift; sourceTree = "<group>"; };
+		D01E59281FD7EB4C005846AC /* EnglishDutchCountryName.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EnglishDutchCountryName.json; sourceTree = "<group>"; };
+		D0280AD61FE2C858002511DC /* TripPreparationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPreparationsTableViewCell.swift; sourceTree = "<group>"; };
+		D0280AD71FE2C858002511DC /* TripPreparationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripPreparationsTableViewCell.xib; sourceTree = "<group>"; };
+		D02C6EEB1FE2973A004675A4 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D062AD551FCF02E50096D28F /* VisumScraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisumScraper.swift; sourceTree = "<group>"; };
+		D062AD581FCF032A0096D28F /* airportCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airportCode.json; sourceTree = "<group>"; };
+		D062AD5D1FD027B60096D28F /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D062AD5E1FD027B60096D28F /* KLMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMColor.swift; sourceTree = "<group>"; };
+		D062AD5F1FD027B60096D28F /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D06DBEB61FE1869000D1A5CE /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		D06DBEBA1FE187D600D1A5CE /* destinationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = destinationTableViewCell.xib; sourceTree = "<group>"; };
+		D0A7AE711FD96E10009D0992 /* newWaitingTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newWaitingTimeTableViewCell.swift; sourceTree = "<group>"; };
+		D0A7AE721FD96E10009D0992 /* newWaitingTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newWaitingTimeTableViewCell.xib; sourceTree = "<group>"; };
+		D0DCAA751FDEAD74004F79EB /* finalVisaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalVisaTableViewCell.swift; sourceTree = "<group>"; };
+		D0DCAA761FDEAD74004F79EB /* finalVisaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = finalVisaTableViewCell.xib; sourceTree = "<group>"; };
+		D0DCAA791FDEC90A004F79EB /* finalVaccineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalVaccineTableViewCell.swift; sourceTree = "<group>"; };
+		D0DCAA7A1FDEC90A004F79EB /* finalVaccineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = finalVaccineTableViewCell.xib; sourceTree = "<group>"; };
+		D0DCAA7F1FDFD9B2004F79EB /* waitTimeWarningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waitTimeWarningCell.swift; sourceTree = "<group>"; };
+		D0DCAA801FDFD9B2004F79EB /* waitTimeWarningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = waitTimeWarningCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902B9F7B1FC2FDC100E5E4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4C1B627714D49F8044E24B /* Pods_KLM_PassengerTripInformation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F8F1FC2FDC100E5E4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FCC031086F772C617849EA /* Pods_KLM_PassengerTripInformationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F9A1FC2FDC100E5E4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A251D43D4A8849CF615C991 /* Pods_KLM_PassengerTripInformationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB9D5E4624294C43BCBBEEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA55DAE90BF1515A73051A /* Pods-KLM-PassengerTripInformation.debug.xcconfig */,
+				84E53186D0D2E6039C7FBD28 /* Pods-KLM-PassengerTripInformation.release.xcconfig */,
+				6E587478B510B17D8082862C /* Pods-KLM-PassengerTripInformationTests.debug.xcconfig */,
+				1E54BCC245372DBE2AD81C25 /* Pods-KLM-PassengerTripInformationTests.release.xcconfig */,
+				145866B198AFF2C2805E7E63 /* Pods-KLM-PassengerTripInformationUITests.debug.xcconfig */,
+				C11B1F035A1E924D07A12390 /* Pods-KLM-PassengerTripInformationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81341A151FCD65040035C4D3 /* FlightDetails */ = {
+			isa = PBXGroup;
+			children = (
+				81341A1C1FCD68E90035C4D3 /* FlightDetailsTableViewCell.swift */,
+				81341A1B1FCD68E90035C4D3 /* FlightDetailsTableViewCell.xib */,
+			);
+			path = FlightDetails;
+			sourceTree = "<group>";
+		};
+		8157AB6C1FC6C6B30022C3C6 /* MyTrips */ = {
+			isa = PBXGroup;
+			children = (
+				90E9F5D11FE01B3900EAAB56 /* MyTripsViewController.swift */,
+				D06DBEB61FE1869000D1A5CE /* CollapsibleTableViewHeader.swift */,
+				8157AB6D1FC6C70B0022C3C6 /* destinationTableViewCell.swift */,
+				D06DBEBA1FE187D600D1A5CE /* destinationTableViewCell.xib */,
+				8157AB711FC6CB940022C3C6 /* MyTrips.storyboard */,
+			);
+			path = MyTrips;
+			sourceTree = "<group>";
+		};
+		8157AB731FC6CC090022C3C6 /* MyDestination */ = {
+			isa = PBXGroup;
+			children = (
+				8157AB691FC6C2650022C3C6 /* MyDestinationViewController.swift */,
+				D0280AD61FE2C858002511DC /* TripPreparationsTableViewCell.swift */,
+				D0280AD71FE2C858002511DC /* TripPreparationsTableViewCell.xib */,
+				D02C6EEB1FE2973A004675A4 /* Section.swift */,
+				8157AB741FC6CC220022C3C6 /* MyDestination.storyboard */,
+				956DBC041FD691ED00FEA428 /* VaccineViews */,
+				90E5BB081FCC816A00C1EB24 /* SchipholWaitingTime */,
+				81A912C51FD6C5CE00B59960 /* PackingAdvice */,
+				8157AB841FC71BD30022C3C6 /* RouteToAirport */,
+				81341A151FCD65040035C4D3 /* FlightDetails */,
+				9549BF701FC99CC600277D70 /* Visa&Vaccine */,
+			);
+			path = MyDestination;
+			sourceTree = "<group>";
+		};
+		8157AB831FC70EB30022C3C6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8157AB811FC70EB00022C3C6 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8157AB841FC71BD30022C3C6 /* RouteToAirport */ = {
+			isa = PBXGroup;
+			children = (
+				8157AB851FC71C060022C3C6 /* RouteToAirportTableViewCell.swift */,
+				8157AB891FC728390022C3C6 /* directionPolyline.swift */,
+				8168104D1FDFF51300BB2D3B /* routeTableViewCell.xib */,
+			);
+			path = RouteToAirport;
+			sourceTree = "<group>";
+		};
+		81A912C51FD6C5CE00B59960 /* PackingAdvice */ = {
+			isa = PBXGroup;
+			children = (
+				81A912C61FD6C5EF00B59960 /* PackingTableViewCell.swift */,
+				81A912C71FD6C5EF00B59960 /* PackingTableViewCell.xib */,
+			);
+			path = PackingAdvice;
+			sourceTree = "<group>";
+		};
+		876188AA5CF20C6E56F592B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4549A3F2EC52CBCA814959 /* Pods_KLM_PassengerTripInformation.framework */,
+				148CB1FEC656335922C05C82 /* Pods_KLM_PassengerTripInformationTests.framework */,
+				A276CC398DA703CDBDC1D2A1 /* Pods_KLM_PassengerTripInformationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902B9F751FC2FDC000E5E4C1 = {
+			isa = PBXGroup;
+			children = (
+				816810581FE1392800BB2D3B /* Localizable.strings */,
+				90E5BAC51FCC256A00C1EB24 /* AR-Routing */,
+				8157AB831FC70EB30022C3C6 /* Constants */,
+				D062AD5B1FD027B60096D28F /* LogIn */,
+				902B9F801FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */,
+				8157AB6C1FC6C6B30022C3C6 /* MyTrips */,
+				8157AB731FC6CC090022C3C6 /* MyDestination */,
+				902B9F951FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests */,
+				902B9FA01FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests */,
+				902B9F7F1FC2FDC100E5E4C1 /* Products */,
+				1FB9D5E4624294C43BCBBEEB /* Pods */,
+				876188AA5CF20C6E56F592B8 /* Frameworks */,
+				D0FB57BB1FCC75A900AF9B40 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		902B9F7F1FC2FDC100E5E4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902B9F7E1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation.app */,
+				902B9F921FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests.xctest */,
+				902B9F9D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902B9F801FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */ = {
+			isa = PBXGroup;
+			children = (
+				81A912C41FCF095400B59960 /* KLM-PassengerTripInformation.entitlements */,
+				95C6BD9D1FCEBB2700DDDF74 /* Resources */,
+				905231551FC7169500E19517 /* Extension */,
+				9052314E1FC7167F00E19517 /* DataLayer */,
+				902B9F811FC2FDC100E5E4C1 /* AppDelegate.swift */,
+				902B9FB11FC3060600E5E4C1 /* Main.storyboard */,
+				8157AB7B1FC6D6890022C3C6 /* SplashScreenViewController.swift */,
+				902B9F8A1FC2FDC100E5E4C1 /* LaunchScreen.storyboard */,
+				902B9F8D1FC2FDC100E5E4C1 /* Info.plist */,
+			);
+			path = "KLM-PassengerTripInformation";
+			sourceTree = "<group>";
+		};
+		902B9F951FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests */ = {
+			isa = PBXGroup;
+			children = (
+				902B9F961FC2FDC100E5E4C1 /* KLM_PassengerTripInformationTests.swift */,
+				956DBC021FD558B100FEA428 /* vaccineParser.swift */,
+				95E71DE41FD0292000D0F9E4 /* KlmParserTester.swift */,
+				902B9F981FC2FDC100E5E4C1 /* Info.plist */,
+			);
+			path = "KLM-PassengerTripInformationTests";
+			sourceTree = "<group>";
+		};
+		902B9FA01FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				902B9FA11FC2FDC100E5E4C1 /* KLM_PassengerTripInformationUITests.swift */,
+				902B9FA31FC2FDC100E5E4C1 /* Info.plist */,
+			);
+			path = "KLM-PassengerTripInformationUITests";
+			sourceTree = "<group>";
+		};
+		9052314E1FC7167F00E19517 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D062AD581FCF032A0096D28F /* airportCode.json */,
+				95E71DEB1FD02C4900D0F9E4 /* Json */,
+				9052314F1FC7167F00E19517 /* Objects */,
+				905231511FC7167F00E19517 /* Scrapers */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		9052314F1FC7167F00E19517 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				905231501FC7167F00E19517 /* SchipholDataObject.swift */,
+				95C6BD9E1FD0056F00DDDF74 /* FlightListObject.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		905231511FC7167F00E19517 /* Scrapers */ = {
+			isa = PBXGroup;
+			children = (
+				905231521FC7167F00E19517 /* KLMHTMLParser.swift */,
+				D062AD551FCF02E50096D28F /* VisumScraper.swift */,
+				D01E59261FD7E315005846AC /* VisumDetailScraper.swift */,
+			);
+			path = Scrapers;
+			sourceTree = "<group>";
+		};
+		905231551FC7169500E19517 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BB051FCC259000C1EB24 /* UIViewControllerExtensions.swift */,
+				905231561FC7169500E19517 /* StringExtension.swift */,
+				81341A131FCC2FD60035C4D3 /* CLLocationDistanceExtension.swift */,
+				95C6BD931FCD6CCD00DDDF74 /* ColorExtensions.swift */,
+				9540492D1FDEF36C00AD531F /* ViewExtensions.swift */,
+				816810661FE2C5D800BB2D3B /* BundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90E5BAC51FCC256A00C1EB24 /* AR-Routing */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BAC61FCC256A00C1EB24 /* Models */,
+				90E5BACC1FCC256A00C1EB24 /* Extensions */,
+				90E5BAD51FCC256A00C1EB24 /* Navigation.storyboard */,
+				90E5BB131FCCA4CC00C1EB24 /* SchipholNavigation.storyboard */,
+				90E5BAD61FCC256A00C1EB24 /* ARRouteToMapView.swift */,
+				90E5BAD71FCC256A00C1EB24 /* ARViewController.swift */,
+				90E5BB0D1FCC86A400C1EB24 /* ArRoutingTableCell.swift */,
+				90E5BB0E1FCC86A400C1EB24 /* ArRoutingTableCell.xib */,
+				90E5BAD81FCC256A00C1EB24 /* Protocols */,
+				90E5BAE01FCC256A00C1EB24 /* Services */,
+			);
+			name = "AR-Routing";
+			path = "KLM-PassengerTripInformation/AR-Routing";
+			sourceTree = "<group>";
+		};
+		90E5BAC61FCC256A00C1EB24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BAC71FCC256A00C1EB24 /* LineSegment.swift */,
+				90E5BAC81FCC256A00C1EB24 /* BaseNode.swift */,
+				90E5BAC91FCC256A00C1EB24 /* POIAnnotation.swift */,
+				90E5BACA1FCC256A00C1EB24 /* LocationData.swift */,
+				90E5BACB1FCC256A00C1EB24 /* LocationTranslation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90E5BACC1FCC256A00C1EB24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BACD1FCC256A00C1EB24 /* CLLocationCoordinate2D+Extension.swift */,
+				90E5BACE1FCC256A00C1EB24 /* CLLocation+Extension.swift */,
+				90E5BACF1FCC256A00C1EB24 /* StoryboardIdentifiableError.swift */,
+				90E5BAD01FCC256A00C1EB24 /* SCNVector3+Extension.swift */,
+				90E5BAD11FCC256A00C1EB24 /* Double+Extension.swift */,
+				90E5BAD21FCC256A00C1EB24 /* ARConstants.swift */,
+				90E5BAD31FCC256A00C1EB24 /* UIStoryboard+Extension.swift */,
+				90E5BAD41FCC256A00C1EB24 /* MKRouteStep+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90E5BAD81FCC256A00C1EB24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BAD91FCC256A00C1EB24 /* NavigationViewControllerDelegate.swift */,
+				90E5BADA1FCC256A00C1EB24 /* StoryboardIdentifiable.swift */,
+				90E5BADB1FCC256A00C1EB24 /* Controller.swift */,
+				90E5BADC1FCC256A00C1EB24 /* MessagePresenting.swift */,
+				90E5BADD1FCC256A00C1EB24 /* LocationServiceDelegate.swift */,
+				90E5BADE1FCC256A00C1EB24 /* Mapable.swift */,
+				90E5BADF1FCC256A00C1EB24 /* ControllerType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		90E5BAE01FCC256A00C1EB24 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BAE11FCC256A00C1EB24 /* routeSchiphol.json */,
+				90E5BAE21FCC256A00C1EB24 /* WayFindingSchipholService.swift */,
+				90E5BAE31FCC256A00C1EB24 /* Helpers */,
+				90E5BAE61FCC256A00C1EB24 /* LocationService.swift */,
+				90E5BAE71FCC256A00C1EB24 /* NavigationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90E5BAE31FCC256A00C1EB24 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				90E5BAE41FCC256A00C1EB24 /* MatrixHelper.swift */,
+				90E5BAE51FCC256A00C1EB24 /* Color.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		90E5BB081FCC816A00C1EB24 /* SchipholWaitingTime */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7AE711FD96E10009D0992 /* newWaitingTimeTableViewCell.swift */,
+				D0A7AE721FD96E10009D0992 /* newWaitingTimeTableViewCell.xib */,
+				D0DCAA7F1FDFD9B2004F79EB /* waitTimeWarningCell.swift */,
+				D0DCAA801FDFD9B2004F79EB /* waitTimeWarningCell.xib */,
+			);
+			path = SchipholWaitingTime;
+			sourceTree = "<group>";
+		};
+		9549BF701FC99CC600277D70 /* Visa&Vaccine */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCAA751FDEAD74004F79EB /* finalVisaTableViewCell.swift */,
+				D0DCAA761FDEAD74004F79EB /* finalVisaTableViewCell.xib */,
+				D0DCAA791FDEC90A004F79EB /* finalVaccineTableViewCell.swift */,
+				D0DCAA7A1FDEC90A004F79EB /* finalVaccineTableViewCell.xib */,
+				9549BF6E1FC9951800277D70 /* VisaViewController.swift */,
+				9549BF6A1FC9925900277D70 /* Visa.storyboard */,
+			);
+			path = "Visa&Vaccine";
+			sourceTree = "<group>";
+		};
+		956DBC041FD691ED00FEA428 /* VaccineViews */ = {
+			isa = PBXGroup;
+			children = (
+				952327641FE14FBB0035134F /* VaccineTableViewCell.swift */,
+				952327651FE14FBB0035134F /* VaccineTableViewCell.xib */,
+				901F08F91FD6C6220013F608 /* VaccineTableViewController.swift */,
+				956DBC0A1FD69BE700FEA428 /* VaccineTableViewController.storyboard */,
+				95E71DE61FD029D000D0F9E4 /* VaccineDataService.swift */,
+			);
+			path = VaccineViews;
+			sourceTree = "<group>";
+		};
+		95C6BD9D1FCEBB2700DDDF74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				902B9F881FC2FDC100E5E4C1 /* Assets.xcassets */,
+				95C6BD981FCEBB1900DDDF74 /* NoaLTStd-RegularTab.otf */,
+				95C6BD951FCEBB1800DDDF74 /* NoaLTPro-Regular.otf */,
+				95C6BD961FCEBB1800DDDF74 /* NoaLTStd-LightTab.otf */,
+				95C6BD971FCEBB1800DDDF74 /* NoaLTPro-Light.otf */,
+				8168105A1FE14A0500BB2D3B /* SF UI Text Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95E71DEB1FD02C4900D0F9E4 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				D01E59281FD7EB4C005846AC /* EnglishDutchCountryName.json */,
+				95E71DE91FD02C4300D0F9E4 /* flightListData.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		D062AD5B1FD027B60096D28F /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				95682F551FD179D500EAE035 /* DummyDataService.swift */,
+				D062AD5D1FD027B60096D28F /* LoginVC.swift */,
+				D062AD5E1FD027B60096D28F /* KLMColor.swift */,
+				D062AD5F1FD027B60096D28F /* Login.storyboard */,
+				816810621FE2C4D200BB2D3B /* PickerTableViewCell.swift */,
+				816810631FE2C4D200BB2D3B /* PickerTableViewCell.xib */,
+			);
+			name = LogIn;
+			path = "KLM-PassengerTripInformation/LogIn";
+			sourceTree = "<group>";
+		};
+		D0FB57BB1FCC75A900AF9B40 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902B9F7D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902B9FA61FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformation" */;
+			buildPhases = (
+				3957A4819F0A76415F66A61F /* [CP] Check Pods Manifest.lock */,
+				902B9F7A1FC2FDC100E5E4C1 /* Sources */,
+				902B9F7B1FC2FDC100E5E4C1 /* Frameworks */,
+				902B9F7C1FC2FDC100E5E4C1 /* Resources */,
+				3B46D5323617D25824C41688 /* [CP] Embed Pods Frameworks */,
+				75182356FC98A0B799D4E67F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KLM-PassengerTripInformation";
+			productName = "KLM-PassengerTripInformation";
+			productReference = 902B9F7E1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902B9F911FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902B9FA91FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformationTests" */;
+			buildPhases = (
+				16001BE358CEAB75A93D867C /* [CP] Check Pods Manifest.lock */,
+				902B9F8E1FC2FDC100E5E4C1 /* Sources */,
+				902B9F8F1FC2FDC100E5E4C1 /* Frameworks */,
+				902B9F901FC2FDC100E5E4C1 /* Resources */,
+				76007EE5129F0F75095B5DA1 /* [CP] Embed Pods Frameworks */,
+				D2C76041720224F9BC01CE08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902B9F941FC2FDC100E5E4C1 /* PBXTargetDependency */,
+			);
+			name = "KLM-PassengerTripInformationTests";
+			productName = "KLM-PassengerTripInformationTests";
+			productReference = 902B9F921FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		902B9F9C1FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902B9FAC1FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformationUITests" */;
+			buildPhases = (
+				B0B3EBDCA296937EE521EC4E /* [CP] Check Pods Manifest.lock */,
+				902B9F991FC2FDC100E5E4C1 /* Sources */,
+				902B9F9A1FC2FDC100E5E4C1 /* Frameworks */,
+				902B9F9B1FC2FDC100E5E4C1 /* Resources */,
+				2B9DF6ECEECA109D84F72A78 /* [CP] Embed Pods Frameworks */,
+				76CF3F9AFB33727D73070267 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902B9F9F1FC2FDC100E5E4C1 /* PBXTargetDependency */,
+			);
+			name = "KLM-PassengerTripInformationUITests";
+			productName = "KLM-PassengerTripInformationUITests";
+			productReference = 902B9F9D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902B9F761FC2FDC000E5E4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ben Smith";
+				TargetAttributes = {
+					902B9F7D1FC2FDC100E5E4C1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					902B9F911FC2FDC100E5E4C1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 902B9F7D1FC2FDC100E5E4C1;
+					};
+					902B9F9C1FC2FDC100E5E4C1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 902B9F7D1FC2FDC100E5E4C1;
+					};
+				};
+			};
+			buildConfigurationList = 902B9F791FC2FDC000E5E4C1 /* Build configuration list for PBXProject "KLM-PassengerTripInformation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				nl,
+				nb,
+			);
+			mainGroup = 902B9F751FC2FDC000E5E4C1;
+			productRefGroup = 902B9F7F1FC2FDC100E5E4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902B9F7D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */,
+				902B9F911FC2FDC100E5E4C1 /* KLM-PassengerTripInformationTests */,
+				902B9F9C1FC2FDC100E5E4C1 /* KLM-PassengerTripInformationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902B9F7C1FC2FDC100E5E4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DCAA7C1FDEC90A004F79EB /* finalVaccineTableViewCell.xib in Resources */,
+				90E5BB101FCC86A400C1EB24 /* ArRoutingTableCell.xib in Resources */,
+				D0A7AE741FD96E10009D0992 /* newWaitingTimeTableViewCell.xib in Resources */,
+				D0DCAA781FDEAD74004F79EB /* finalVisaTableViewCell.xib in Resources */,
+				D06DBEBB1FE187D600D1A5CE /* destinationTableViewCell.xib in Resources */,
+				902B9FB21FC3060700E5E4C1 /* Main.storyboard in Resources */,
+				8168104F1FDFF51300BB2D3B /* routeTableViewCell.xib in Resources */,
+				9549BF6B1FC9925900277D70 /* Visa.storyboard in Resources */,
+				D0280AD91FE2C858002511DC /* TripPreparationsTableViewCell.xib in Resources */,
+				952327671FE14FBB0035134F /* VaccineTableViewCell.xib in Resources */,
+				95E71DEA1FD02C4300D0F9E4 /* flightListData.json in Resources */,
+				8157AB721FC6CB940022C3C6 /* MyTrips.storyboard in Resources */,
+				D01E59291FD7EB4C005846AC /* EnglishDutchCountryName.json in Resources */,
+				816810561FE1392800BB2D3B /* Localizable.strings in Resources */,
+				90E5BAF51FCC256A00C1EB24 /* Navigation.storyboard in Resources */,
+				902B9F8C1FC2FDC100E5E4C1 /* LaunchScreen.storyboard in Resources */,
+				8157AB751FC6CC220022C3C6 /* MyDestination.storyboard in Resources */,
+				D062AD631FD027B60096D28F /* Login.storyboard in Resources */,
+				D062AD5A1FCF032B0096D28F /* airportCode.json in Resources */,
+				90E5BAFF1FCC256A00C1EB24 /* routeSchiphol.json in Resources */,
+				95C6BD9C1FCEBB1900DDDF74 /* NoaLTStd-RegularTab.otf in Resources */,
+				902B9F891FC2FDC100E5E4C1 /* Assets.xcassets in Resources */,
+				D0DCAA821FDFD9B2004F79EB /* waitTimeWarningCell.xib in Resources */,
+				81A912C91FD6C5EF00B59960 /* PackingTableViewCell.xib in Resources */,
+				95C6BD991FCEBB1900DDDF74 /* NoaLTPro-Regular.otf in Resources */,
+				956DBC0B1FD69BE700FEA428 /* VaccineTableViewController.storyboard in Resources */,
+				816810651FE2C4D200BB2D3B /* PickerTableViewCell.xib in Resources */,
+				95C6BD9B1FCEBB1900DDDF74 /* NoaLTPro-Light.otf in Resources */,
+				95C6BD9A1FCEBB1900DDDF74 /* NoaLTStd-LightTab.otf in Resources */,
+				90E5BB141FCCA4CC00C1EB24 /* SchipholNavigation.storyboard in Resources */,
+				81341A1E1FCD74080035C4D3 /* FlightDetailsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F901FC2FDC100E5E4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F9B1FC2FDC100E5E4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16001BE358CEAB75A93D867C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLM-PassengerTripInformationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9DF6ECEECA109D84F72A78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformationUITests/Pods-KLM-PassengerTripInformationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3957A4819F0A76415F66A61F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLM-PassengerTripInformation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B46D5323617D25824C41688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformation/Pods-KLM-PassengerTripInformation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AGi18n/AGi18n.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AGi18n.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformation/Pods-KLM-PassengerTripInformation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75182356FC98A0B799D4E67F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformation/Pods-KLM-PassengerTripInformation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76007EE5129F0F75095B5DA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformationTests/Pods-KLM-PassengerTripInformationTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AGi18n/AGi18n.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AGi18n.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformationTests/Pods-KLM-PassengerTripInformationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CF3F9AFB33727D73070267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformationUITests/Pods-KLM-PassengerTripInformationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B3EBDCA296937EE521EC4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLM-PassengerTripInformationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C76041720224F9BC01CE08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLM-PassengerTripInformationTests/Pods-KLM-PassengerTripInformationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902B9F7A1FC2FDC100E5E4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E5BAF91FCC256A00C1EB24 /* StoryboardIdentifiable.swift in Sources */,
+				8157AB6A1FC6C2650022C3C6 /* MyDestinationViewController.swift in Sources */,
+				90E5BAF61FCC256A00C1EB24 /* ARRouteToMapView.swift in Sources */,
+				905231541FC7168000E19517 /* KLMHTMLParser.swift in Sources */,
+				90E5BAF21FCC256A00C1EB24 /* ARConstants.swift in Sources */,
+				90E5BB031FCC256A00C1EB24 /* LocationService.swift in Sources */,
+				81A912C81FD6C5EF00B59960 /* PackingTableViewCell.swift in Sources */,
+				95C6BD941FCD6CCE00DDDF74 /* ColorExtensions.swift in Sources */,
+				D0DCAA811FDFD9B2004F79EB /* waitTimeWarningCell.swift in Sources */,
+				D02C6EEC1FE2973A004675A4 /* Section.swift in Sources */,
+				90E5BB0F1FCC86A400C1EB24 /* ArRoutingTableCell.swift in Sources */,
+				D062AD621FD027B60096D28F /* KLMColor.swift in Sources */,
+				D01E59271FD7E315005846AC /* VisumDetailScraper.swift in Sources */,
+				90E5BAED1FCC256A00C1EB24 /* CLLocationCoordinate2D+Extension.swift in Sources */,
+				90E5BAEB1FCC256A00C1EB24 /* LocationData.swift in Sources */,
+				905231571FC7169500E19517 /* StringExtension.swift in Sources */,
+				95682F541FD1536100EAE035 /* (null) in Sources */,
+				90E5BAEE1FCC256A00C1EB24 /* CLLocation+Extension.swift in Sources */,
+				90E5BAF71FCC256A00C1EB24 /* ARViewController.swift in Sources */,
+				901F08FA1FD6C6220013F608 /* VaccineTableViewController.swift in Sources */,
+				90E5BAF31FCC256A00C1EB24 /* UIStoryboard+Extension.swift in Sources */,
+				90E5BB041FCC256A00C1EB24 /* NavigationService.swift in Sources */,
+				D062AD561FCF02E50096D28F /* VisumScraper.swift in Sources */,
+				9549BF6F1FC9951800277D70 /* VisaViewController.swift in Sources */,
+				90E5BB021FCC256A00C1EB24 /* Color.swift in Sources */,
+				81341A141FCC2FD60035C4D3 /* CLLocationDistanceExtension.swift in Sources */,
+				90E5BAEA1FCC256A00C1EB24 /* POIAnnotation.swift in Sources */,
+				8157AB871FC71C060022C3C6 /* RouteToAirportTableViewCell.swift in Sources */,
+				8157AB7C1FC6D6890022C3C6 /* SplashScreenViewController.swift in Sources */,
+				90E5BAFB1FCC256A00C1EB24 /* MessagePresenting.swift in Sources */,
+				95C6BD9F1FD0057000DDDF74 /* FlightListObject.swift in Sources */,
+				90E5BAE91FCC256A00C1EB24 /* BaseNode.swift in Sources */,
+				D0A7AE731FD96E10009D0992 /* newWaitingTimeTableViewCell.swift in Sources */,
+				90E5BB011FCC256A00C1EB24 /* MatrixHelper.swift in Sources */,
+				90E5BAE81FCC256A00C1EB24 /* LineSegment.swift in Sources */,
+				D0280AD81FE2C858002511DC /* TripPreparationsTableViewCell.swift in Sources */,
+				90E5BAEF1FCC256A00C1EB24 /* StoryboardIdentifiableError.swift in Sources */,
+				8157AB821FC70EB00022C3C6 /* Constants.swift in Sources */,
+				90E5BB061FCC259000C1EB24 /* UIViewControllerExtensions.swift in Sources */,
+				90E5BAFC1FCC256A00C1EB24 /* LocationServiceDelegate.swift in Sources */,
+				816810671FE2C5D800BB2D3B /* BundleExtension.swift in Sources */,
+				D06DBEB71FE1869000D1A5CE /* CollapsibleTableViewHeader.swift in Sources */,
+				90E5BAFD1FCC256A00C1EB24 /* Mapable.swift in Sources */,
+				D062AD611FD027B60096D28F /* LoginVC.swift in Sources */,
+				90E5BB001FCC256A00C1EB24 /* WayFindingSchipholService.swift in Sources */,
+				D0DCAA771FDEAD74004F79EB /* finalVisaTableViewCell.swift in Sources */,
+				90E5BAF01FCC256A00C1EB24 /* SCNVector3+Extension.swift in Sources */,
+				90E5BAEC1FCC256A00C1EB24 /* LocationTranslation.swift in Sources */,
+				95682F561FD179D500EAE035 /* DummyDataService.swift in Sources */,
+				81341A1D1FCD6FCE0035C4D3 /* FlightDetailsTableViewCell.swift in Sources */,
+				95E71DE71FD029D000D0F9E4 /* VaccineDataService.swift in Sources */,
+				816810641FE2C4D200BB2D3B /* PickerTableViewCell.swift in Sources */,
+				90E5BAFA1FCC256A00C1EB24 /* Controller.swift in Sources */,
+				90E5BAF41FCC256A00C1EB24 /* MKRouteStep+Extension.swift in Sources */,
+				D0DCAA7B1FDEC90A004F79EB /* finalVaccineTableViewCell.swift in Sources */,
+				9540492E1FDEF36C00AD531F /* ViewExtensions.swift in Sources */,
+				8157AB6F1FC6C70B0022C3C6 /* destinationTableViewCell.swift in Sources */,
+				8157AB8A1FC728390022C3C6 /* directionPolyline.swift in Sources */,
+				905231531FC7168000E19517 /* SchipholDataObject.swift in Sources */,
+				90E5BAF11FCC256A00C1EB24 /* Double+Extension.swift in Sources */,
+				90E9F5D21FE01B3A00EAAB56 /* MyTripsViewController.swift in Sources */,
+				90E5BAF81FCC256A00C1EB24 /* NavigationViewControllerDelegate.swift in Sources */,
+				952327661FE14FBB0035134F /* VaccineTableViewCell.swift in Sources */,
+				90E5BAFE1FCC256A00C1EB24 /* ControllerType.swift in Sources */,
+				902B9F821FC2FDC100E5E4C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F8E1FC2FDC100E5E4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956DBC031FD558B100FEA428 /* vaccineParser.swift in Sources */,
+				95E71DE51FD0292000D0F9E4 /* KlmParserTester.swift in Sources */,
+				902B9F971FC2FDC100E5E4C1 /* KLM_PassengerTripInformationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B9F991FC2FDC100E5E4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902B9FA21FC2FDC100E5E4C1 /* KLM_PassengerTripInformationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902B9F941FC2FDC100E5E4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902B9F7D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */;
+			targetProxy = 902B9F931FC2FDC100E5E4C1 /* PBXContainerItemProxy */;
+		};
+		902B9F9F1FC2FDC100E5E4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902B9F7D1FC2FDC100E5E4C1 /* KLM-PassengerTripInformation */;
+			targetProxy = 902B9F9E1FC2FDC100E5E4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816810581FE1392800BB2D3B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816810571FE1392800BB2D3B /* en */,
+				816810591FE1392B00BB2D3B /* nl */,
+				8168105D1FE14F5D00BB2D3B /* Base */,
+				8168105F1FE1506700BB2D3B /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		902B9F8A1FC2FDC100E5E4C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902B9F8B1FC2FDC100E5E4C1 /* Base */,
+				816810551FE1386900BB2D3B /* nl */,
+				8168105E1FE1506700BB2D3B /* nb */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902B9FA41FC2FDC100E5E4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902B9FA51FC2FDC100E5E4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902B9FA71FC2FDC100E5E4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AA55DAE90BF1515A73051A /* Pods-KLM-PassengerTripInformation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZWL927386;
+				INFOPLIST_FILE = "KLM-PassengerTripInformation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.theappacademy.KLMTravelAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902B9FA81FC2FDC100E5E4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E53186D0D2E6039C7FBD28 /* Pods-KLM-PassengerTripInformation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZWL927386;
+				INFOPLIST_FILE = "KLM-PassengerTripInformation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.theappacademy.KLMTravelAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		902B9FAA1FC2FDC100E5E4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E587478B510B17D8082862C /* Pods-KLM-PassengerTripInformationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "KLM-PassengerTripInformationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.KLM-PassengerTripInformationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLM-PassengerTripInformation.app/KLM-PassengerTripInformation";
+			};
+			name = Debug;
+		};
+		902B9FAB1FC2FDC100E5E4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E54BCC245372DBE2AD81C25 /* Pods-KLM-PassengerTripInformationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "KLM-PassengerTripInformationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.KLM-PassengerTripInformationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLM-PassengerTripInformation.app/KLM-PassengerTripInformation";
+			};
+			name = Release;
+		};
+		902B9FAD1FC2FDC100E5E4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145866B198AFF2C2805E7E63 /* Pods-KLM-PassengerTripInformationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "KLM-PassengerTripInformationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.KLM-PassengerTripInformationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KLM-PassengerTripInformation";
+			};
+			name = Debug;
+		};
+		902B9FAE1FC2FDC100E5E4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11B1F035A1E924D07A12390 /* Pods-KLM-PassengerTripInformationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "KLM-PassengerTripInformationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.KLM-PassengerTripInformationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KLM-PassengerTripInformation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902B9F791FC2FDC000E5E4C1 /* Build configuration list for PBXProject "KLM-PassengerTripInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902B9FA41FC2FDC100E5E4C1 /* Debug */,
+				902B9FA51FC2FDC100E5E4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902B9FA61FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902B9FA71FC2FDC100E5E4C1 /* Debug */,
+				902B9FA81FC2FDC100E5E4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902B9FA91FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902B9FAA1FC2FDC100E5E4C1 /* Debug */,
+				902B9FAB1FC2FDC100E5E4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902B9FAC1FC2FDC100E5E4C1 /* Build configuration list for PBXNativeTarget "KLM-PassengerTripInformationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902B9FAD1FC2FDC100E5E4C1 /* Debug */,
+				902B9FAE1FC2FDC100E5E4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902B9F761FC2FDC000E5E4C1 /* Project object */;
+}

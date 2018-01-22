@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s11-4f-W0E">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="okU-3A-agd">
+            <objects>
+                <viewController id="s11-4f-W0E" customClass="SplashScreenViewController" customModule="KLM_PassengerTripInformation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AYQ-K2-Hy2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLM (Whitelogo)" translatesAutoresizingMaskIntoConstraints="NO" id="6Ei-xp-pUa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6U-gk-PxC">
+                                <rect key="frame" x="307" y="20" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ei-xp-pUa" firstAttribute="trailing" secondItem="cvp-ri-I5r" secondAttribute="trailing" id="2wL-Oc-mV0"/>
+                            <constraint firstItem="6Ei-xp-pUa" firstAttribute="top" secondItem="AYQ-K2-Hy2" secondAttribute="top" id="8FJ-Ks-8LE"/>
+                            <constraint firstItem="6Ei-xp-pUa" firstAttribute="leading" secondItem="cvp-ri-I5r" secondAttribute="leading" id="hgZ-9O-dCb"/>
+                            <constraint firstItem="6Ei-xp-pUa" firstAttribute="bottom" secondItem="cvp-ri-I5r" secondAttribute="bottom" id="sck-RK-vCW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cvp-ri-I5r"/>
+                    </view>
+                    <connections>
+                        <segue destination="g2W-A1-gXc" kind="show" identifier="toLogin" id="95Y-Lc-txo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eI3-0c-dR6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224.8" y="157.87106446776613"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="JdZ-mU-5R2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="g2W-A1-gXc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="len-kq-uJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1874" y="157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KLM (Whitelogo)" width="845" height="321"/>
+    </resources>
+</document>

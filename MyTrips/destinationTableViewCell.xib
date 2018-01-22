@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NoaLTPro-Light.otf">
+            <string>NoaLTPro-Light</string>
+        </array>
+        <array key="NoaLTPro-Regular.otf">
+            <string>NoaLTPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" selectionStyle="none" indentationLevel="100" indentationWidth="10" reuseIdentifier="destinationTableViewCell" rowHeight="140" id="KGk-i7-Jjw" customClass="destinationTableViewCell" customModule="KLM_PassengerTripInformation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="227"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="destinationTableViewCell" customModule="KLM_PassengerTripInformation" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="226.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWX-NF-sa2">
+                        <rect key="frame" x="4" y="6" width="333" height="214"/>
+                        <subviews>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7iB-Fb-WuW">
+                                <rect key="frame" x="14" y="8" width="311" height="127"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AmsterdamTo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IG3-XM-ZQb">
+                                        <rect key="frame" x="8" y="19" width="161" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="90I-Wf-RB5"/>
+                                            <constraint firstAttribute="width" constant="161" id="q6N-Ce-7EK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NoaLTPro-Light" family="Noa LT Pro" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Destination" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="li9-dC-4Tg">
+                                        <rect key="frame" x="8" y="43" width="178" height="28"/>
+                                        <fontDescription key="fontDescription" name="NoaLTPro-Light" family="Noa LT Pro" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oA-G1-4yQ">
+                                        <rect key="frame" x="6" y="126" width="290" height="1"/>
+                                        <color key="backgroundColor" red="0.76078431372549016" green="0.87058823529411766" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking code /(THNSXI)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0WK-PK-BBq">
+                                        <rect key="frame" x="8" y="79" width="218" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="ZOR-ai-yxt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NoaLTPro-Regular" family="Noa LT Pro" pointSize="16"/>
+                                        <color key="textColor" red="0.46581525259067358" green="0.46581525259067358" blue="0.46581525259067358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4oA-G1-4yQ" firstAttribute="top" secondItem="7iB-Fb-WuW" secondAttribute="top" constant="126" id="262-H6-Xbb"/>
+                                    <constraint firstItem="0WK-PK-BBq" firstAttribute="top" secondItem="li9-dC-4Tg" secondAttribute="bottom" constant="8" symbolic="YES" id="7SC-FN-HkZ"/>
+                                    <constraint firstAttribute="height" constant="127" id="7UE-lC-gN2"/>
+                                    <constraint firstItem="4oA-G1-4yQ" firstAttribute="leading" secondItem="7iB-Fb-WuW" secondAttribute="leading" constant="6" id="CQf-vo-gGx"/>
+                                    <constraint firstItem="4oA-G1-4yQ" firstAttribute="top" secondItem="0WK-PK-BBq" secondAttribute="bottom" constant="19" id="Cow-nL-hEK"/>
+                                    <constraint firstAttribute="trailing" secondItem="0WK-PK-BBq" secondAttribute="trailing" constant="85" id="Qco-nQ-waH"/>
+                                    <constraint firstItem="li9-dC-4Tg" firstAttribute="top" secondItem="IG3-XM-ZQb" secondAttribute="bottom" id="Spu-Oe-SCt"/>
+                                    <constraint firstItem="0WK-PK-BBq" firstAttribute="leading" secondItem="IG3-XM-ZQb" secondAttribute="leading" id="Wsa-Zm-Esk"/>
+                                    <constraint firstAttribute="trailing" secondItem="4oA-G1-4yQ" secondAttribute="trailing" constant="15" id="nI3-Gl-8BM"/>
+                                    <constraint firstAttribute="bottom" secondItem="4oA-G1-4yQ" secondAttribute="bottom" id="vju-JC-B4b"/>
+                                    <constraint firstItem="0WK-PK-BBq" firstAttribute="leading" secondItem="li9-dC-4Tg" secondAttribute="leading" id="yRv-p1-KHz"/>
+                                    <constraint firstItem="IG3-XM-ZQb" firstAttribute="top" secondItem="7iB-Fb-WuW" secondAttribute="top" constant="19" id="zam-IP-60b"/>
+                                    <constraint firstItem="0WK-PK-BBq" firstAttribute="leading" secondItem="7iB-Fb-WuW" secondAttribute="leadingMargin" id="zeH-5I-5xK"/>
+                                </constraints>
+                            </view>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oWK-nr-2aM">
+                                <rect key="frame" x="8" y="135" width="325" height="56"/>
+                                <subviews>
+                                    <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v1D-WX-qGV">
+                                        <rect key="frame" x="0.0" y="27" width="282" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FlyBack" translatesAutoresizingMaskIntoConstraints="NO" id="OET-ec-Hdl">
+                                                <rect key="frame" x="11" y="8" width="22" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date flight back" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9y-7U-RFZ">
+                                                <rect key="frame" x="50" y="8" width="202" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="NoaLTPro-Regular" family="Noa LT Pro" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="89x-2U-ipI">
+                                        <rect key="frame" x="8" y="0.0" width="274" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FlyTo" translatesAutoresizingMaskIntoConstraints="NO" id="aSr-F8-KcB">
+                                                <rect key="frame" x="3" y="6" width="22" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date flight to" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fC6-1u-aqE">
+                                                <rect key="frame" x="42" y="6" width="233" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="NoaLTPro-Regular" family="Noa LT Pro" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAL-4x-ump">
+                                        <rect key="frame" x="290" y="17" width="19" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="Ej6-go-dHi"/>
+                                            <constraint firstAttribute="width" constant="19" id="Jgb-7t-cvK"/>
+                                        </constraints>
+                                        <state key="normal" image="shape"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="3cw-EQ-HS7"/>
+                                    <constraint firstItem="bAL-4x-ump" firstAttribute="top" secondItem="oWK-nr-2aM" secondAttribute="top" constant="17" id="DgI-A4-pDY"/>
+                                    <constraint firstAttribute="trailing" secondItem="bAL-4x-ump" secondAttribute="trailing" constant="16" id="Vpx-Gx-2Em"/>
+                                    <constraint firstAttribute="bottom" secondItem="bAL-4x-ump" secondAttribute="bottom" constant="17" id="jKk-0I-Psd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="333" id="GUT-RH-RtR"/>
+                            <constraint firstAttribute="height" constant="214" id="Zz4-Md-41T"/>
+                            <constraint firstItem="oWK-nr-2aM" firstAttribute="top" secondItem="7iB-Fb-WuW" secondAttribute="bottom" id="ahk-Ls-cE0"/>
+                            <constraint firstItem="C2l-BY-qZl" firstAttribute="trailing" secondItem="7iB-Fb-WuW" secondAttribute="trailing" constant="8" id="dKw-7Y-Ith"/>
+                            <constraint firstItem="7iB-Fb-WuW" firstAttribute="top" secondItem="C2l-BY-qZl" secondAttribute="top" constant="8" id="fRU-b6-t6i"/>
+                            <constraint firstItem="oWK-nr-2aM" firstAttribute="trailing" secondItem="C2l-BY-qZl" secondAttribute="trailing" id="hlg-nE-a2P"/>
+                            <constraint firstItem="7iB-Fb-WuW" firstAttribute="leading" secondItem="C2l-BY-qZl" secondAttribute="leading" constant="14" id="in5-ye-8mW"/>
+                            <constraint firstItem="C2l-BY-qZl" firstAttribute="bottom" secondItem="oWK-nr-2aM" secondAttribute="bottom" constant="23" id="kl5-Zm-Znv"/>
+                            <constraint firstItem="oWK-nr-2aM" firstAttribute="leading" secondItem="C2l-BY-qZl" secondAttribute="leading" constant="8" id="pfv-Ce-NY7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C2l-BY-qZl"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.30048376580000002" green="0.80500076700000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="LWX-NF-sa2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="LkO-tg-5bv"/>
+                    <constraint firstAttribute="bottom" secondItem="LWX-NF-sa2" secondAttribute="bottom" constant="6.5" id="QbG-fa-BPO"/>
+                    <constraint firstItem="LWX-NF-sa2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="enj-WO-n9f"/>
+                    <constraint firstAttribute="trailing" secondItem="LWX-NF-sa2" secondAttribute="trailing" constant="6" id="yjR-gc-m3S"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="12"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                        <real key="value" value="1"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" header="YES"/>
+            </accessibility>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="25" minY="0.0" maxX="25" maxY="0.0"/>
+            <connections>
+                <outlet property="bookingCode" destination="0WK-PK-BBq" id="OUr-bi-bat"/>
+                <outlet property="container" destination="LWX-NF-sa2" id="2G4-qk-W6e"/>
+                <outlet property="containerView" destination="H2p-sc-9uM" id="ALG-tV-3vP"/>
+                <outlet property="containerWidth" destination="GUT-RH-RtR" id="YNi-es-anW"/>
+                <outlet property="dateFlightBack" destination="X9y-7U-RFZ" id="I9B-uD-NCm"/>
+                <outlet property="dateFlightTo" destination="fC6-1u-aqE" id="4rH-5k-mJl"/>
+                <outlet property="destination" destination="li9-dC-4Tg" id="QlZ-fG-JQg"/>
+                <outlet property="fromWhere" destination="IG3-XM-ZQb" id="Ii0-9l-UM9"/>
+                <outlet property="onePixelLine" destination="4oA-G1-4yQ" id="hfy-9o-PCi"/>
+                <outlet property="revealArrow" destination="bAL-4x-ump" id="YUz-OD-w7c"/>
+                <outlet property="spacingView" destination="oWK-nr-2aM" id="dDA-oG-bpK"/>
+            </connections>
+            <point key="canvasLocation" x="396.5" y="-55.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FlyBack" width="80" height="74"/>
+        <image name="FlyTo" width="68" height="72"/>
+        <image name="shape" width="12" height="20"/>
+    </resources>
+</document>

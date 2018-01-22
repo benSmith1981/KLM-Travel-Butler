@@ -1,0 +1,3244 @@
+{
+	"operationalFlights": [{
+		"flightNumber": 1715,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1715",
+		"haul": "MEDIUM",
+		"route": ["AMS", "VLC"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/b6pLE_Pdb_DX5aF-KoerKnEkoxcsa4y8zozyKJbAnvxEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1715&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:00:00.000+01:00",
+					"latestPublished": "2017-11-29T14:00:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:00:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T13:58:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "VLC",
+					"name": "VALENCIA AIRPORT",
+					"city": {
+						"code": "VLC",
+						"name": "VALENCIA",
+						"country": {
+							"areaCode": "E",
+							"code": "ES",
+							"name": "SPAIN"
+						}
+					},
+					"location": {
+						"latitude": 39.4903,
+						"longitude": -0.4786
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:25:00.000+01:00",
+					"latestPublished": "2017-11-29T16:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:25:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H25M",
+			"aircraft": {
+				"typeCode": "73H",
+				"typeName": "Boeing 737-800"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 445,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0445",
+		"haul": "LONG",
+		"route": ["AMS", "KWI", "BAH"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/M1v_keCOlXr5M4b9zdZJ9Q4YlOYoJonAoVaPOuebeChEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0445&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:05:00.000+01:00",
+					"latestPublished": "2017-11-29T14:05:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:05:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:03:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "KWI",
+					"name": "KUWAIT INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "KWI",
+						"name": "KUWAIT",
+						"country": {
+							"areaCode": "I",
+							"code": "KW",
+							"name": "KUWAIT"
+						}
+					},
+					"location": {
+						"latitude": 29.2303,
+						"longitude": 47.9753
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T21:50:00.000+03:00",
+					"latestPublished": "2017-11-29T21:50:00.000+03:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T21:50:00.000+03:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT5H45M",
+			"aircraft": {
+				"typeCode": "333",
+				"typeName": "Airbus A330-300"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}, {
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/M1v_keCOlXr5M4b9zdZJ9c1kVV7hRcX1CE5b94TSWfdEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0445&date=2017-11-29&airportCode=KWI&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "KWI",
+					"name": "KUWAIT INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "KWI",
+						"name": "KUWAIT",
+						"country": {
+							"areaCode": "I",
+							"code": "KW",
+							"name": "KUWAIT"
+						}
+					},
+					"location": {
+						"latitude": 29.2303,
+						"longitude": 47.9753
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T22:50:00.000+03:00",
+					"latestPublished": "2017-11-29T22:50:00.000+03:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T22:50:00.000+03:00"
+					},
+					"endOfHandling": "2017-11-29T22:48:00.000+03:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BAH",
+					"name": "BAHRAIN INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "BAH",
+						"name": "BAHRAIN",
+						"country": {
+							"areaCode": "I",
+							"code": "BH",
+							"name": "BAHRAIN"
+						}
+					},
+					"location": {
+						"latitude": 26.2708,
+						"longitude": 50.6375
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T00:05:00.000+03:00",
+					"latestPublished": "2017-11-30T00:05:00.000+03:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T00:05:00.000+03:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H15M",
+			"aircraft": {
+				"typeCode": "333",
+				"typeName": "Airbus A330-300"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1019,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1019",
+		"haul": "MEDIUM",
+		"route": ["AMS", "LHR"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/pMTg87yhDHIllddCSGoSek1OvgVvCz6ID6DAchg4oU5Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1019&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:05:00.000+01:00",
+					"latestPublished": "2017-11-29T14:05:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:05:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:03:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "LHR",
+					"name": "HEATHROW AIRPORT",
+					"city": {
+						"code": "LON",
+						"name": "LONDON",
+						"country": {
+							"areaCode": "E",
+							"code": "GB",
+							"name": "UNITED KINGDOM"
+						}
+					},
+					"location": {
+						"latitude": 51.4714,
+						"longitude": -0.4528
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000Z",
+					"latestPublished": "2017-11-29T14:25:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000Z"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H20M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1603,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1603",
+		"haul": "MEDIUM",
+		"route": ["AMS", "FCO"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/MGMrE93-SGYz2jhLeSH7etqnWr0-o0yKG7hLoVjYBylEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1603&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:15:00.000+01:00",
+					"latestPublished": "2017-11-29T14:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:15:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:13:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "FCO",
+					"name": "FIUMICINO AIRPORT",
+					"city": {
+						"code": "ROM",
+						"name": "ROME",
+						"country": {
+							"areaCode": "E",
+							"code": "IT",
+							"name": "ITALY"
+						}
+					},
+					"location": {
+						"latitude": 41.8003,
+						"longitude": 12.2389
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:25:00.000+01:00",
+					"latestPublished": "2017-11-29T16:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:25:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H10M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1977,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1977",
+		"haul": "MEDIUM",
+		"route": ["AMS", "BUD"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/yQuItDstJkgXC-zY3vr30V0VYwABnUem6l1o-1fhFsREim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1977&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:15:00.000+01:00",
+					"latestPublished": "2017-11-29T14:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:15:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:13:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BUD",
+					"name": "LISZT FERENC INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "BUD",
+						"name": "BUDAPEST",
+						"country": {
+							"areaCode": "E",
+							"code": "HU",
+							"name": "HUNGARY"
+						}
+					},
+					"location": {
+						"latitude": 47.4333,
+						"longitude": 19.2333
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:15:00.000+01:00",
+					"latestPublished": "2017-11-29T16:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H",
+			"aircraft": {
+				"typeCode": "73H",
+				"typeName": "Boeing 737-800"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1115,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1115",
+		"haul": "MEDIUM",
+		"route": ["AMS", "ARN"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/XiRWLby2sQnH410trCGW9mJ-qdx4oezaNR-ON2eSav1Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1115&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:20:00.000+01:00",
+					"latestPublished": "2017-11-29T14:20:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:20:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:18:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "ARN",
+					"name": "ARLANDA AIRPORT",
+					"city": {
+						"code": "STO",
+						"name": "STOCKHOLM",
+						"country": {
+							"areaCode": "E",
+							"code": "SE",
+							"name": "SWEDEN"
+						}
+					},
+					"location": {
+						"latitude": 59.6619,
+						"longitude": 17.9339
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:15:00.000+01:00",
+					"latestPublished": "2017-11-29T16:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H55M",
+			"aircraft": {
+				"typeCode": "73J",
+				"typeName": "Boeing 737-900"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 589,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0589",
+		"haul": "LONG",
+		"route": ["AMS", "ACC"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/vqJHwD3gHRPysJqU3QKGwuX2gluqlwOo05BB6lQ7QMJEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0589&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "ACC",
+					"name": "KOTOKA INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "ACC",
+						"name": "ACCRA",
+						"country": {
+							"areaCode": "I",
+							"code": "GH",
+							"name": "GHANA"
+						}
+					},
+					"location": {
+						"latitude": 5.5953,
+						"longitude": -0.1708
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T19:50:00.000Z",
+					"latestPublished": "2017-11-29T19:50:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T19:50:00.000Z"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT6H25M",
+			"aircraft": {
+				"typeCode": "77W",
+				"typeName": "Boeing 777-300ER"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 867,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0867",
+		"haul": "LONG",
+		"route": ["AMS", "KIX"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/v0YzE0pOAuW0iFq9vv1VZlehW3QI81iDsq2H8Dw_OPBEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0867&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "KIX",
+					"name": "KANSAI INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "OSA",
+						"name": "OSAKA",
+						"country": {
+							"areaCode": "I",
+							"code": "JP",
+							"name": "JAPAN"
+						}
+					},
+					"location": {
+						"latitude": 34.4239,
+						"longitude": 135.2469
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T09:15:00.000+09:00",
+					"latestPublished": "2017-11-30T09:15:00.000+09:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T09:15:00.000+09:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT10H50M",
+			"aircraft": {
+				"typeCode": "789",
+				"typeName": "Boeing 787-9"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1147,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1147",
+		"haul": "MEDIUM",
+		"route": ["AMS", "OSL"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/10IkcXPyapqVoeJpbaGX_SMTaGUekRBX6XXBAMCIb-5Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1147&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "OSL",
+					"name": "GARDERMOEN AIRPORT",
+					"city": {
+						"code": "OSL",
+						"name": "OSLO",
+						"country": {
+							"areaCode": "E",
+							"code": "NO",
+							"name": "NORWAY"
+						}
+					},
+					"location": {
+						"latitude": 60.2000,
+						"longitude": 11.0833
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:15:00.000+01:00",
+					"latestPublished": "2017-11-29T16:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H50M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1307,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1307",
+		"haul": "MEDIUM",
+		"route": ["AMS", "TLS"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/eLXD0jc65iabTfg3LNg8eVQjlEBO1v00GOB3Ny4NpKREim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1307&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "TLS",
+					"name": "BLAGNAC AIRPORT",
+					"city": {
+						"code": "TLS",
+						"name": "TOULOUSE",
+						"country": {
+							"areaCode": "E",
+							"code": "FR",
+							"name": "FRANCE"
+						}
+					},
+					"location": {
+						"latitude": 43.6303,
+						"longitude": 1.3650
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:15:00.000+01:00",
+					"latestPublished": "2017-11-29T16:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H50M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1365,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1365",
+		"haul": "MEDIUM",
+		"route": ["AMS", "WAW"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/YyavB-1Xrde8rrgPLqM3WJQhf1-7YzsdCcM5T7wUIlhEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1365&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "WAW",
+					"name": "FREDERIC CHOPIN AIRPORT",
+					"city": {
+						"code": "WAW",
+						"name": "WARSAW",
+						"country": {
+							"areaCode": "E",
+							"code": "PL",
+							"name": "POLAND"
+						}
+					},
+					"location": {
+						"latitude": 52.1667,
+						"longitude": 20.9667
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:15:00.000+01:00",
+					"latestPublished": "2017-11-29T16:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H50M",
+			"aircraft": {
+				"typeCode": "E90",
+				"typeName": "EMBRAER EMB 190 / EMB 195"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1687,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1687",
+		"haul": "MEDIUM",
+		"route": ["AMS", "BIO"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/PmzQG0eMMHwylyxzP6ShM-ssS9BUUWA3eHwRxrTrCwlEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1687&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BIO",
+					"name": "BILBAO AIRPORT",
+					"city": {
+						"code": "BIO",
+						"name": "BILBAO",
+						"country": {
+							"areaCode": "E",
+							"code": "ES",
+							"name": "SPAIN"
+						}
+					},
+					"location": {
+						"latitude": 43.3028,
+						"longitude": -2.9217
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:30:00.000+01:00",
+					"latestPublished": "2017-11-29T16:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:30:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H5M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1847,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1847",
+		"haul": "MEDIUM",
+		"route": ["AMS", "VIE"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/2I3N5qZEx3Fl1eGwEVEh03Ka_Zvbww63staSxgJNHppEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1847&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:25:00.000+01:00",
+					"latestPublished": "2017-11-29T14:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:25:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:23:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "VIE",
+					"name": "VIENNA INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "VIE",
+						"name": "VIENNA",
+						"country": {
+							"areaCode": "E",
+							"code": "AT",
+							"name": "AUSTRIA"
+						}
+					},
+					"location": {
+						"latitude": 48.1111,
+						"longitude": 16.5583
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:10:00.000+01:00",
+					"latestPublished": "2017-11-29T16:10:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:10:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H45M",
+			"aircraft": {
+				"typeCode": "73H",
+				"typeName": "Boeing 737-800"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 427,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0427",
+		"haul": "LONG",
+		"route": ["AMS", "DXB"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/We6_Ibb_tKPfKw4fduRz5W9ibotNGVckMdaG-tMx7MBEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0427&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:30:00.000+01:00",
+					"latestPublished": "2017-11-29T14:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:30:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:28:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "DXB",
+					"name": "DUBAI INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "DXB",
+						"name": "DUBAI",
+						"country": {
+							"areaCode": "I",
+							"code": "AE",
+							"name": "UNITED ARAB EMIRATES"
+						}
+					},
+					"location": {
+						"latitude": 25.2500,
+						"longitude": 55.3578
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T00:05:00.000+04:00",
+					"latestPublished": "2017-11-30T00:05:00.000+04:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T00:05:00.000+04:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT6H35M",
+			"aircraft": {
+				"typeCode": "772",
+				"typeName": "Boeing 777-200"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 861,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0861",
+		"haul": "LONG",
+		"route": ["AMS", "NRT"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/tsPot5aiG-eqNJsM9-A1oypEdsSYMpqIFR6iNHQB--NEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0861&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:30:00.000+01:00",
+					"latestPublished": "2017-11-29T14:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:30:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:28:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "NRT",
+					"name": "NARITA AIRPORT",
+					"city": {
+						"code": "TYO",
+						"name": "TOKYO",
+						"country": {
+							"areaCode": "I",
+							"code": "JP",
+							"name": "JAPAN"
+						}
+					},
+					"location": {
+						"latitude": 35.7639,
+						"longitude": 140.3911
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T09:45:00.000+09:00",
+					"latestPublished": "2017-11-30T09:45:00.000+09:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T09:45:00.000+09:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT11H15M",
+			"aircraft": {
+				"typeCode": "772",
+				"typeName": "Boeing 777-200"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1175,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1175",
+		"haul": "MEDIUM",
+		"route": ["AMS", "TRD"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/RhkUFfDN6MYZVcojMb2HWqY68lUlLnIeVoC15U0RKaBEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1175&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:30:00.000+01:00",
+					"latestPublished": "2017-11-29T14:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:30:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:28:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "TRD",
+					"name": "VAERNES AIRPORT",
+					"city": {
+						"code": "TRD",
+						"name": "TRONDHEIM",
+						"country": {
+							"areaCode": "E",
+							"code": "NO",
+							"name": "NORWAY"
+						}
+					},
+					"location": {
+						"latitude": 63.4500,
+						"longitude": 10.9333
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:45:00.000+01:00",
+					"latestPublished": "2017-11-29T16:45:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:45:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H15M",
+			"aircraft": {
+				"typeCode": "E90",
+				"typeName": "EMBRAER EMB 190 / EMB 195"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1673,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1673",
+		"haul": "MEDIUM",
+		"route": ["AMS", "BCN"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/tsUvTG9aJcdNdcAu5VaYkP1XMz3QyahFY3c6fX_7k1tEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1673&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:30:00.000+01:00",
+					"latestPublished": "2017-11-29T14:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:30:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:28:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BCN",
+					"name": "BARCELONA AIRPORT",
+					"city": {
+						"code": "BCN",
+						"name": "BARCELONA",
+						"country": {
+							"areaCode": "E",
+							"code": "ES",
+							"name": "SPAIN"
+						}
+					},
+					"location": {
+						"latitude": 41.2969,
+						"longitude": 2.0783
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:35:00.000+01:00",
+					"latestPublished": "2017-11-29T16:35:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:35:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H5M",
+			"aircraft": {
+				"typeCode": "73J",
+				"typeName": "Boeing 737-900"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1943,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1943",
+		"haul": "MEDIUM",
+		"route": ["AMS", "ZAG"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/4Vx3jcbPJIgxZHHA-FFat2BKjSFKVnxJjSx6W2HnlspEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1943&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:30:00.000+01:00",
+					"latestPublished": "2017-11-29T14:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:30:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:28:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "ZAG",
+					"name": "PLESO AIRPORT",
+					"city": {
+						"code": "ZAG",
+						"name": "ZAGREB",
+						"country": {
+							"areaCode": "E",
+							"code": "HR",
+							"name": "CROATIA"
+						}
+					},
+					"location": {
+						"latitude": 45.7431,
+						"longitude": 16.0703
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:25:00.000+01:00",
+					"latestPublished": "2017-11-29T16:25:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:25:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H55M",
+			"aircraft": {
+				"typeCode": "E90",
+				"typeName": "EMBRAER EMB 190 / EMB 195"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 511,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0511",
+		"haul": "LONG",
+		"route": ["AMS", "FNA", "ROB", "AMS"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/ikDljnTwuHLZ16L3Bhtrb5edZ-W4u-QF09gz6Szma-REim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0511&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:35:00.000+01:00",
+					"latestPublished": "2017-11-29T14:35:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:35:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:33:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "FNA",
+					"name": "LUNGI INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "FNA",
+						"name": "FREETOWN",
+						"country": {
+							"areaCode": "I",
+							"code": "SL",
+							"name": "SIERRA LEONE"
+						}
+					},
+					"location": {
+						"latitude": 8.6175,
+						"longitude": -13.1969
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T20:35:00.000Z",
+					"latestPublished": "2017-11-29T20:35:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T20:35:00.000Z"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT7H",
+			"aircraft": {
+				"typeCode": "332",
+				"typeName": "Airbus A330-200"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}, {
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/ikDljnTwuHLZ16L3Bhtrb99X2V1LDlJLuHr3KKBBtJVEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0511&date=2017-11-29&airportCode=FNA&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "FNA",
+					"name": "LUNGI INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "FNA",
+						"name": "FREETOWN",
+						"country": {
+							"areaCode": "I",
+							"code": "SL",
+							"name": "SIERRA LEONE"
+						}
+					},
+					"location": {
+						"latitude": 8.6175,
+						"longitude": -13.1969
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T21:40:00.000Z",
+					"latestPublished": "2017-11-29T21:40:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T21:40:00.000Z"
+					},
+					"endOfHandling": "2017-11-29T21:38:00.000Z"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "ROB",
+					"name": "ROBERTS INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "MLW",
+						"name": "MONROVIA",
+						"country": {
+							"areaCode": "I",
+							"code": "LR",
+							"name": "LIBERIA"
+						}
+					},
+					"location": {
+						"latitude": 6.2397,
+						"longitude": -10.3589
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T22:45:00.000Z",
+					"latestPublished": "2017-11-29T22:45:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T22:45:00.000Z"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H5M",
+			"aircraft": {
+				"typeCode": "332",
+				"typeName": "Airbus A330-200"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}, {
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/ikDljnTwuHLZ16L3Bhtrb37_YWcr81a7aAvC_1IISa9Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0511&date=2017-11-29&airportCode=ROB&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "ROB",
+					"name": "ROBERTS INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "MLW",
+						"name": "MONROVIA",
+						"country": {
+							"areaCode": "I",
+							"code": "LR",
+							"name": "LIBERIA"
+						}
+					},
+					"location": {
+						"latitude": 6.2397,
+						"longitude": -10.3589
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T00:15:00.000Z",
+					"latestPublished": "2017-11-30T00:15:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T00:15:00.000Z"
+					},
+					"endOfHandling": "2017-11-30T00:13:00.000Z"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T08:15:00.000+01:00",
+					"latestPublished": "2017-11-30T08:15:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T08:15:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT7H",
+			"aircraft": {
+				"typeCode": "332",
+				"typeName": "Airbus A330-200"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 685,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+0685",
+		"haul": "LONG",
+		"route": ["AMS", "MEX"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/rJt_RS4Pcn68UndkO91LsTl1uOAvrWzlf7QjLz6X1p1Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=0685&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:35:00.000+01:00",
+					"latestPublished": "2017-11-29T14:35:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:35:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:33:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "MEX",
+					"name": "BENITO JUAREZ INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "MEX",
+						"name": "MEXICO CITY",
+						"country": {
+							"areaCode": "I",
+							"code": "MX",
+							"name": "MEXICO"
+						}
+					},
+					"location": {
+						"latitude": 19.4353,
+						"longitude": -99.0728
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T19:25:00.000-06:00",
+					"latestPublished": "2017-11-29T19:25:00.000-06:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T19:25:00.000-06:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT11H50M",
+			"aircraft": {
+				"typeCode": "74E",
+				"typeName": "Boeing 747-400 Combi"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1267,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1267",
+		"haul": "MEDIUM",
+		"route": ["AMS", "NCE"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/93EeFuFYwqmLYmGPO1PK9PltB9cyi3k8aF74tB8RxIREim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1267&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:40:00.000+01:00",
+					"latestPublished": "2017-11-29T14:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:40:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:38:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "NCE",
+					"name": "COTE D AZUR AIRPORT",
+					"city": {
+						"code": "NCE",
+						"name": "NICE",
+						"country": {
+							"areaCode": "E",
+							"code": "FR",
+							"name": "FRANCE"
+						}
+					},
+					"location": {
+						"latitude": 43.6639,
+						"longitude": 7.2175
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:35:00.000+01:00",
+					"latestPublished": "2017-11-29T16:35:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:35:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H55M",
+			"aircraft": {
+				"typeCode": "E90",
+				"typeName": "EMBRAER EMB 190 / EMB 195"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1325,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1325",
+		"haul": "MEDIUM",
+		"route": ["AMS", "AES"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/ZVZTU1_gvjcvhCFWh2GlsO8B8P-nHMkPBje6Ysu3toFEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1325&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:40:00.000+01:00",
+					"latestPublished": "2017-11-29T14:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:40:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:38:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "AES",
+					"name": "VIGRA AIRPORT",
+					"city": {
+						"code": "AES",
+						"name": "AALESUND",
+						"country": {
+							"areaCode": "E",
+							"code": "NO",
+							"name": "NORWAY"
+						}
+					},
+					"location": {
+						"latitude": 62.5625,
+						"longitude": 6.1053
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:40:00.000+01:00",
+					"latestPublished": "2017-11-29T16:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:40:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT2H",
+			"aircraft": {
+				"typeCode": "E75",
+				"typeName": "EMBRAER EMB 175"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1631,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1631",
+		"haul": "MEDIUM",
+		"route": ["AMS", "MXP"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/By-EEI-vkUz7z64deSleR5Vl6FPX0tIizrNqWgz64-xEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1631&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:40:00.000+01:00",
+					"latestPublished": "2017-11-29T14:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:40:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:38:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "MXP",
+					"name": "MALPENSA AIRPORT",
+					"city": {
+						"code": "MIL",
+						"name": "MILAN",
+						"country": {
+							"areaCode": "E",
+							"code": "IT",
+							"name": "ITALY"
+						}
+					},
+					"location": {
+						"latitude": 45.6300,
+						"longitude": 8.7231
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:20:00.000+01:00",
+					"latestPublished": "2017-11-29T16:20:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:20:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H40M",
+			"aircraft": {
+				"typeCode": "73H",
+				"typeName": "Boeing 737-800"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 346,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+CZ+0346",
+		"haul": "LONG",
+		"route": ["AMS", "PEK"],
+		"airline": {
+			"code": "CZ"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/eO5NoJZOQRP4mo2nNmSb5QpOXxWg8hfFYrLm1u8odR5Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=CZ&flightNumber=0346&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:40:00.000+01:00",
+					"latestPublished": "2017-11-29T14:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:40:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:38:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "PEK",
+					"name": "CAPITAL INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "BJS",
+						"name": "BEIJING",
+						"country": {
+							"areaCode": "I",
+							"code": "CN",
+							"name": "CHINA"
+						}
+					},
+					"location": {
+						"latitude": 40.0667,
+						"longitude": 116.6000
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-30T06:55:00.000+08:00",
+					"latestPublished": "2017-11-30T06:55:00.000+08:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-30T06:55:00.000+08:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT9H15M",
+			"aircraft": {
+				"typeCode": "333",
+				"typeName": "Airbus A330-300"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1741,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+AF+1741",
+		"haul": "MEDIUM",
+		"route": ["AMS", "CDG"],
+		"airline": {
+			"code": "AF"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/-g5tjvR05kAqwsP1pXxG7JHgGevWVNLVcHmmPTcr8_BEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=AF&flightNumber=1741&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:50:00.000+01:00",
+					"latestPublished": "2017-11-29T14:50:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:50:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:48:00.000+01:00"
+				},
+				"priorityIndicator": "Y"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "CDG",
+					"name": "CHARLES DE GAULLE AIRPORT",
+					"city": {
+						"code": "PAR",
+						"name": "PARIS NAME MODIFIED FOR TEST NF",
+						"country": {
+							"areaCode": "E",
+							"code": "FR",
+							"name": "FRANCE"
+						}
+					},
+					"location": {
+						"latitude": 49.0097,
+						"longitude": 2.5486
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:05:00.000+01:00",
+					"latestPublished": "2017-11-29T16:05:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:05:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H15M",
+			"aircraft": {
+				"typeCode": "318",
+				"typeName": "Airbus A318"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1189,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1189",
+		"haul": "MEDIUM",
+		"route": ["AMS", "BGO"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/U1OyD1SLHJqipCUhHqOzLnDQvhzRk7fnFNOPqaVjqf1Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1189&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:55:00.000+01:00",
+					"latestPublished": "2017-11-29T14:55:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:55:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:53:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BGO",
+					"name": "FLESLAND AIRPORT",
+					"city": {
+						"code": "BGO",
+						"name": "BERGEN",
+						"country": {
+							"areaCode": "E",
+							"code": "NO",
+							"name": "NORWAY"
+						}
+					},
+					"location": {
+						"latitude": 60.2936,
+						"longitude": 5.2194
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:40:00.000+01:00",
+					"latestPublished": "2017-11-29T16:40:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:40:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H45M",
+			"aircraft": {
+				"typeCode": "73H",
+				"typeName": "Boeing 737-800"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1203,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1203",
+		"haul": "MEDIUM",
+		"route": ["AMS", "SVG"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/PYXK7jcVRc9m9_ehaxFtB9_WfjP8bMsjEhLaZx2djfpEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1203&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:55:00.000+01:00",
+					"latestPublished": "2017-11-29T14:55:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:55:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:53:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "SVG",
+					"name": "SOLA AIRPORT",
+					"city": {
+						"code": "SVG",
+						"name": "STAVANGER",
+						"country": {
+							"areaCode": "E",
+							"code": "NO",
+							"name": "NORWAY"
+						}
+					},
+					"location": {
+						"latitude": 58.8797,
+						"longitude": 5.6347
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:30:00.000+01:00",
+					"latestPublished": "2017-11-29T16:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:30:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H35M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1793,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+AF+1793",
+		"haul": "MEDIUM",
+		"route": ["AMS", "NTE"],
+		"airline": {
+			"code": "AF"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/eZWiDETzdxO3QrWz0TRoReyL5bnoX8IGi1oFiWYgHl9Eim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=AF&flightNumber=1793&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T14:55:00.000+01:00",
+					"latestPublished": "2017-11-29T14:55:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T14:55:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:53:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "NTE",
+					"name": "NANTES ATLANTIQUE AIRPORT",
+					"city": {
+						"code": "NTE",
+						"name": "NANTES",
+						"country": {
+							"areaCode": "E",
+							"code": "FR",
+							"name": "FRANCE"
+						}
+					},
+					"location": {
+						"latitude": 47.1583,
+						"longitude": -1.6097
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:30:00.000+01:00",
+					"latestPublished": "2017-11-29T16:30:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:30:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H35M",
+			"aircraft": {
+				"typeCode": "319",
+				"typeName": "Airbus A319"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1477,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1477",
+		"haul": "MEDIUM",
+		"route": ["AMS", "GLA"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/eeLqBFnV_tkdS-XSLN3TuLvO2TS_CumP2_W57pOqr2VEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1477&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T15:00:00.000+01:00",
+					"latestPublished": "2017-11-29T15:00:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T15:00:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:58:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "GLA",
+					"name": "GLASGOW INTERNATIONAL AIRPORT",
+					"city": {
+						"code": "GLA",
+						"name": "GLASGOW",
+						"country": {
+							"areaCode": "E",
+							"code": "GB",
+							"name": "UNITED KINGDOM"
+						}
+					},
+					"location": {
+						"latitude": 55.8667,
+						"longitude": -4.4333
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T15:35:00.000Z",
+					"latestPublished": "2017-11-29T15:35:00.000Z",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T15:35:00.000Z"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H35M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}, {
+		"flightNumber": 1591,
+		"flightScheduleDate": "2017-11-29",
+		"id": "20171129+KL+1591",
+		"haul": "MEDIUM",
+		"route": ["AMS", "BLQ"],
+		"airline": {
+			"code": "KL"
+		},
+		"internalFlightStatus": "SCHEDULED",
+		"flightLegs": [{
+			"_links": {
+				"flightLeg": {
+					"href": "/airportpassenger/flight-legs/ALeWsdl1O18GzAzY5I3trjyP0vIv9KQFtbtig87hWWpEim-58HDnqJuMvHWuY0Op",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v2",
+					"type": "application/hal+json",
+					"templated": false
+				},
+				"searchFlightLegs": [{
+					"href": "/airportpassenger/flight-legs?airlineCode=KL&flightNumber=1591&date=2017-11-29&airportCode=AMS&movementType=D",
+					"hostPrefix": "api.ute1.klm.com",
+					"profile": "com.afkl.flightleg.v3",
+					"type": "application/hal+json",
+					"templated": false
+				}]
+			},
+			"status": "S",
+			"statusName": "Scheduled",
+			"publishedStatus": "ONTIME",
+			"internalLegStatus": "SCHEDULED",
+			"departureInformation": {
+				"airport": {
+					"code": "AMS",
+					"name": "SCHIPHOL AIRPORT",
+					"city": {
+						"code": "AMS",
+						"name": "AMSTERDAM",
+						"country": {
+							"areaCode": "N",
+							"code": "NL",
+							"name": "NETHERLANDS"
+						}
+					},
+					"location": {
+						"latitude": 52.3083,
+						"longitude": 4.7681
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T15:00:00.000+01:00",
+					"latestPublished": "2017-11-29T15:00:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T15:00:00.000+01:00"
+					},
+					"endOfHandling": "2017-11-29T14:58:00.000+01:00"
+				},
+				"priorityIndicator": "N"
+			},
+			"arrivalInformation": {
+				"airport": {
+					"code": "BLQ",
+					"name": "GUGLIELMO MARCONI AIRPORT",
+					"city": {
+						"code": "BLQ",
+						"name": "BOLOGNA",
+						"country": {
+							"areaCode": "E",
+							"code": "IT",
+							"name": "ITALY"
+						}
+					},
+					"location": {
+						"latitude": 44.5308,
+						"longitude": 11.2969
+					}
+				},
+				"times": {
+					"scheduled": "2017-11-29T16:45:00.000+01:00",
+					"latestPublished": "2017-11-29T16:45:00.000+01:00",
+					"estimated": {
+						"origin": "S",
+						"type": "S",
+						"value": "2017-11-29T16:45:00.000+01:00"
+					}
+				},
+				"priorityIndicator": "N"
+			},
+			"scheduledFlightDuration": "PT1H45M",
+			"aircraft": {
+				"typeCode": "73W",
+				"typeName": "Boeing 737-700"
+			},
+			"irregularity": {
+				"cancelled": "N"
+			}
+		}]
+	}],
+	"page": {
+		"pageSize": 30,
+		"pageNumber": 0,
+		"fullCount": 30,
+		"pageCount": 30,
+		"totalPages": 1
+	}
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ale-Tq-krB">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NoaLTPro-Light.otf">
+            <string>NoaLTPro-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--My Trips View Controller-->
+        <scene sceneID="5Ht-gg-yFZ">
+            <objects>
+                <viewController storyboardIdentifier="MyTrips" id="ale-Tq-krB" customClass="MyTripsViewController" customModule="KLM_PassengerTripInformation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="GwS-KL-cqq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amsterdam" translatesAutoresizingMaskIntoConstraints="NO" id="afu-lp-JD2">
+                                <rect key="frame" x="0.0" y="115" width="414" height="400"/>
+                            </imageView>
+                            <tableView contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsMultipleSelection="YES" rowHeight="215" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ecl-Du-E2x">
+                                <rect key="frame" x="20" y="166" width="374" height="570"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ale-Tq-krB" id="NiY-dS-8fE"/>
+                                    <outlet property="delegate" destination="ale-Tq-krB" id="7pZ-wE-DlP"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My upcoming trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyR-G2-haD">
+                                <rect key="frame" x="20" y="65" width="203.33333333333334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6uA-Zk-3ba"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NoaLTPro-Light" family="Noa LT Pro" pointSize="24"/>
+                                <color key="textColor" red="0.30048376580000002" green="0.80500076700000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ecl-Du-E2x" firstAttribute="leading" secondItem="2f8-Ef-imd" secondAttribute="leading" constant="20" id="GfI-0C-2vm"/>
+                            <constraint firstItem="GyR-G2-haD" firstAttribute="leading" secondItem="2f8-Ef-imd" secondAttribute="leading" constant="20" id="MnX-dj-uET"/>
+                            <constraint firstItem="afu-lp-JD2" firstAttribute="top" secondItem="GyR-G2-haD" secondAttribute="bottom" id="OPJ-Ev-ytp"/>
+                            <constraint firstItem="Ecl-Du-E2x" firstAttribute="centerX" secondItem="afu-lp-JD2" secondAttribute="centerX" id="SaI-4d-xYg"/>
+                            <constraint firstItem="Ecl-Du-E2x" firstAttribute="top" secondItem="2f8-Ef-imd" secondAttribute="top" constant="146" id="UzX-LJ-g6s"/>
+                            <constraint firstItem="2f8-Ef-imd" firstAttribute="trailing" secondItem="Ecl-Du-E2x" secondAttribute="trailing" constant="20" id="fU4-Y7-vsA"/>
+                            <constraint firstItem="Ecl-Du-E2x" firstAttribute="bottom" secondItem="2f8-Ef-imd" secondAttribute="bottom" id="fs3-fC-QFv"/>
+                            <constraint firstItem="afu-lp-JD2" firstAttribute="leading" secondItem="GwS-KL-cqq" secondAttribute="leading" id="jCn-7j-iZF"/>
+                            <constraint firstItem="afu-lp-JD2" firstAttribute="top" secondItem="GwS-KL-cqq" secondAttribute="top" constant="115" id="uyt-1M-cdC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2f8-Ef-imd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="scu-M8-I4n"/>
+                    <connections>
+                        <outlet property="myTripsTableView" destination="Ecl-Du-E2x" id="PUw-Ln-mPa"/>
+                        <outlet property="myTripsTitle" destination="GyR-G2-haD" id="Sti-0Z-rNQ"/>
+                        <segue destination="IB2-vn-tzN" kind="show" identifier="toDestination" id="dgy-Ub-gKW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71u-pY-MSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1552.1739130434785" y="106.79347826086958"/>
+        </scene>
+        <!--MyDestination-->
+        <scene sceneID="wja-lw-P2Y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyDestination" id="IB2-vn-tzN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZb-2c-Lj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2214" y="132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="amsterdam" width="375" height="400"/>
+    </resources>
+</document>

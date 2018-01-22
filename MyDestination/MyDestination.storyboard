@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hcH-nT-Qfe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Destination View Controller-->
+        <scene sceneID="QdH-hS-Cxq">
+            <objects>
+                <viewController id="hcH-nT-Qfe" customClass="MyDestinationViewController" customModule="KLM_PassengerTripInformation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ne-KQ-qL7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dsZ-Zk-udm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="hcH-nT-Qfe" id="aBn-XR-tBF"/>
+                                    <outlet property="delegate" destination="hcH-nT-Qfe" id="sDk-bE-09m"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dsZ-Zk-udm" firstAttribute="leading" secondItem="VV9-qu-BIh" secondAttribute="leading" id="5pK-dp-PdO"/>
+                            <constraint firstItem="dsZ-Zk-udm" firstAttribute="bottom" secondItem="VV9-qu-BIh" secondAttribute="bottom" id="RgP-bH-qsx"/>
+                            <constraint firstItem="dsZ-Zk-udm" firstAttribute="trailing" secondItem="VV9-qu-BIh" secondAttribute="trailing" id="V6A-zK-CBf"/>
+                            <constraint firstItem="dsZ-Zk-udm" firstAttribute="top" secondItem="3ne-KQ-qL7" secondAttribute="top" id="gzb-KN-zdm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VV9-qu-BIh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cia-t3-uoM"/>
+                    <connections>
+                        <outlet property="myDestinationTableView" destination="dsZ-Zk-udm" id="qKL-iu-MMS"/>
+                        <segue destination="3mh-jk-4yu" kind="show" identifier="vaccineSegue" id="v4n-eu-ZxZ"/>
+                        <segue destination="LfC-et-hG9" kind="show" identifier="visaSegue" id="bqb-Q3-hio"/>
+                        <segue destination="N5O-VI-ofy" kind="show" identifier="routeToSchiphol" id="gHa-0G-FLa"/>
+                        <segue destination="kBh-Hw-6YD" kind="show" identifier="routeAroundSchipol" id="3t2-cY-19M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g5z-VC-riF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2848.8000000000002" y="129.98500749625188"/>
+        </scene>
+        <!--VaccineTableViewController-->
+        <scene sceneID="gkJ-07-oIe">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="VaccineTableViewController" storyboardName="VaccineTableViewController" referencedIdentifier="VaccineTableViewController" id="3mh-jk-4yu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fnV-Oa-jsy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3496" y="7"/>
+        </scene>
+        <!--VisaView-->
+        <scene sceneID="eN7-Pf-euy">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="VisaView" storyboardName="Visa" referencedIdentifier="VisaView" id="LfC-et-hG9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oUT-fz-zHQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3629" y="184"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="LTc-jg-ebg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ARViewController" storyboardName="Navigation" id="N5O-VI-ofy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdW-R2-Nu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3628" y="347"/>
+        </scene>
+        <!--SchipholNavigation-->
+        <scene sceneID="F3d-nC-UOK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SchipholNavigation" id="kBh-Hw-6YD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5oy-Y6-pDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3449" y="434"/>
+        </scene>
+    </scenes>
+</document>
